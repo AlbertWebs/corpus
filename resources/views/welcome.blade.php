@@ -52,9 +52,9 @@
                               <ul>
                                  <li class="nav-item"><a href="#about" class="nav-link active"><span>About</span></a></li>
                                  <li class="nav-item"><a href="#service" class="nav-link"><span>Services</span></a></li>
-                                 <li class="nav-item"><a href="#work" class="nav-link"><span>Works</span></a></li>
+                                 <li class="nav-item"><a href="#work" class="nav-link"><span>Careers</span></a></li>
                                  <li class="nav-item"><a href="#testimonials" class="nav-link"><span>Testimonials</span></a></li>
-                                 <li class="nav-item"><a href="#blog" class="nav-link"><span>Blogs</span></a></li>
+                                 <li class="nav-item"><a href="#blog" class="nav-link"><span>Clientale</span></a></li>
                                  <li class="nav-item"><a href="#contact" class="nav-link"><span>Contact</span></a></li>
                               </ul>
                            </div>
@@ -62,7 +62,7 @@
                               <div class="search-icon header__search header-search-btn">
                                  <a href="#"><img src="assets/img/icons/search-icons1.svg" alt=""></a>
                               </div>
-                              <a href="contact.html" class="header-btn1">Free Consultation <span><i class="fa-solid fa-arrow-right"></i></span></a>
+                              <a href="#contact" class="header-btn1">Free Consultation <span><i class="fa-solid fa-arrow-right"></i></span></a>
                            </div>
                            <div class="header-search-form-wrapper">
                               <div class="tx-search-close tx-close"><i class="fa-solid fa-xmark"></i></div>
@@ -116,7 +116,7 @@
                 <li class="nav-item"><a href="#contact" class="nav-link"><span>Contact</span></a></li>
             </ul>
             <div class="allmobilesection">
-               <a href="contact.html"  class="header-btn1">Get Started <span><i class="fa-solid fa-arrow-right"></i></span></a>
+               <a href="#contact"  class="header-btn1">Get Started <span><i class="fa-solid fa-arrow-right"></i></span></a>
                <div class="single-footer">
                   <h3>Contact Info</h3>
                   <div class="footer1-contact-info">
@@ -720,7 +720,7 @@
                         <h2 class="text-anime-style-3">Ready To Take Your SEO To <br class="d-md-block d-none"> The Next Level</h2>
                         <p data-aos="fade-up" data-aos-duration="1000">Effective SEO strategies not only elevate a website's visibility but also drive <br class="d-md-block d-none"> targeted traffic, enhance user experience,</p>
                         <div class="btn-area text-center" data-aos="fade-up" data-aos-duration="1200">
-                           <a href="contact.html" class="header-btn1">Free Consultation <span><i class="fa-solid fa-arrow-right"></i></span></a>
+                           <a href="#contact" class="header-btn1">Free Consultation <span><i class="fa-solid fa-arrow-right"></i></span></a>
                         </div>
                      </div>
                   </div>
@@ -753,7 +753,7 @@
                            <li><a href="#">Services</a></li>
                            <li><a href="case.html">Marketing</a></li>
                            <li><a href="testimonials.html">Testimonials</a></li>
-                           <li><a href="contact.html">Contact Us</a></li>
+                           <li><a href="#contact">Contact Us</a></li>
                         </ul>
                      </div>
                   </div>
