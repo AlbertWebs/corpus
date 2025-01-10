@@ -49,18 +49,18 @@
                               <a href="{{url('/')}}"><img width="80" src="{{asset('uploads/logooo.png')}}" alt=""></a>
                            </div>
                            <div class="main-menu">
-                              <ul>
-                                 <li class="nav-item"><a href="#about" class="nav-link active"><span>About</span></a></li>
-                                 <li class="nav-item"><a href="#service" class="nav-link"><span>Services</span></a></li>
-                                 <li class="nav-item"><a href="#work" class="nav-link"><span>Careers</span></a></li>
-                                 <li class="nav-item"><a href="#testimonials" class="nav-link"><span>Testimonials</span></a></li>
-                                 <li class="nav-item"><a href="#blog" class="nav-link"><span>Clientale</span></a></li>
-                                 <li class="nav-item"><a href="#contact" class="nav-link"><span>Contact</span></a></li>
+                              <ul id="menu">
+                                <li class="nav-item"><a href="#about" class="nav-link active"><span>About</span></a></li>
+                                <li class="nav-item"><a href="#service" class="nav-link"><span>Services</span></a></li>
+                                <li class="nav-item"><a href="#testimonials" class="nav-link"><span>Testimonials</span></a></li>
+                                <li class="nav-item"><a href="#careers" class="nav-link"><span>Careers</span></a></li>
+                                <li class="nav-item"><a href="#clients" class="nav-link"><span>Clients</span></a></li>
+                                <li class="nav-item"><a href="#contact" class="nav-link"><span>Contact</span></a></li>
                               </ul>
                            </div>
                            <div class="btn-area">
                               <div class="search-icon header__search header-search-btn">
-                                 <a href="#"><img src="assets/img/icons/search-icons1.svg" alt=""></a>
+                                 <a href="#"><img src="{{asset('theme/assets/img/icons/search-icons1.svg')}}" alt=""></a>
                               </div>
                               <a href="#contact" class="header-btn1">Free Consultation <span><i class="fa-solid fa-arrow-right"></i></span></a>
                            </div>
@@ -69,7 +69,7 @@
                               <div class="header-search-container">
                                  <form role="search" class="search-form">
                                     <input type="search"  class="search-field" placeholder="Search …" value="" name="s">
-                                    <button type="submit" class="search-submit"><img src="assets/img/icons/search-icons1.svg" alt=""></button>
+                                    <button type="submit" class="search-submit"><img src="{{asset('theme/assets/img/icons/search-icons1.svg')}}" alt=""></button>
                                  </form>
                               </div>
                            </div>
@@ -110,9 +110,10 @@
             <ul class="mobile-nav-list nav-list1">
                 <li class="nav-item"><a href="#about" class="nav-link active"><span>About</span></a></li>
                 <li class="nav-item"><a href="#service" class="nav-link"><span>Services</span></a></li>
-                <li class="nav-item"><a href="#work" class="nav-link"><span>Works</span></a></li>
                 <li class="nav-item"><a href="#testimonials" class="nav-link"><span>Testimonials</span></a></li>
-                <li class="nav-item"><a href="#blog" class="nav-link"><span>Blogs</span></a></li>
+                <li class="nav-item"><a href="#careers" class="nav-link"><span>Careers</span></a></li>
+
+                <li class="nav-item"><a href="#clients" class="nav-link"><span>Clients</span></a></li>
                 <li class="nav-item"><a href="#contact" class="nav-link"><span>Contact</span></a></li>
             </ul>
             <div class="allmobilesection">
@@ -171,7 +172,7 @@
             <div class="row align-items-center">
                <div class="col-lg-7">
                   <div class="header-main-content heading1">
-                     <h5><img src="{{asset('theme/assets/img/icons/logo-icons.svg')}}" alt="">#Empowering Growth, Preserving Legacies</h5>
+                     <h5>#Empowering Growth, Preserving Legacies</h5>
                      <h1 class="text-anime-style-3">Tailored Solutions to Empower Your Growth and Preserve Your Legacy</h1>
                      <p data-aos="fade-left" data-aos-duration="1000">We are committed to transforming aspirations into achievements. We believe in the power of clear goals, strategic
                         planning, and relentless execution to turn visions into reality
@@ -213,7 +214,7 @@
       </div>
       <!--===== HERO AREA ENDS =======-->
       <!--===== TESTIMONIAL AREA STARTS =======-->
-      <div class="slider-section-area sp5" >
+      <div class="slider-section-area sp5" id="client">
          <div class="container">
             <div class="row align-items-center">
                <div class="col-lg-2">
@@ -223,15 +224,15 @@
                </div>
                <div class="col-lg-10">
                   <div class="slider-images-area owl-carousel">
-                     <div class="img1">
+                     {{-- <div class="img1">
                         <img src="https://www.happylandschools.com/wp-content/uploads/2023/03/Happyland-Preparatory-School-Logo-1.png" alt="">
-                     </div>
+                     </div> --}}
                      <div class="img1">
                         <img src="https://www.trustedtouchcares.com/wp-content/uploads/2024/11/cropped-Trusted-Touch-logo-21.webp" alt="">
                      </div>
-                     <div class="img1">
+                     {{-- <div class="img1">
                         <img src="{{asset('uploads/img83-removebg-preview.png')}}" alt="">
-                     </div>
+                     </div> --}}
                   </div>
                </div>
             </div>
@@ -240,9 +241,9 @@
       <!--===== TESTIMONIAL AREA ENDS =======-->
       <div class="all-section-bg" style="background-image: url('{{asset('theme/assets/img/bg/pages-bg1.png')}}'); background-repeat: no-repeat; background-size: cover;">
          <!--===== ABOUT AREA STARTS =======-->
-         <div class="about3-section-area sp1" id="about">
-            <img src="assets/img/bg/about-bg1.png" alt="" class="about-bg1">
-            <img src="assets/img/bg/about-bg2.png" alt="" class="about-bg2">
+         <div class="about3-section-area sp1 bg3" id="about">
+            <img src="{{asset('theme/assets/img/bg/about-bg1.png')}}" alt="" class="about-bg1">
+            <img src="{{asset('theme/assets/img/bg/about-bg2.png')}}" alt="" class="about-bg2">
             <div class="container">
                <div class="row align-items-center">
                   <div class="col-lg-6">
@@ -262,6 +263,10 @@
                            on building long-term relationships and delivering personalized strategies
                            that cater to each client’s unique needs
                         </p>
+                        <br>
+                        <div class="btn-area">
+                            <a href="#team" class="header-btn1">Our Team<span><i class="fa-solid fa-arrow-right"></i></span></a>
+                          </div>
                      </div>
                   </div>
                </div>
@@ -347,7 +352,7 @@
          <!--===== SERVICE AREA ENDS =======-->
          @include('values')
          <!--===== CASE AREA STARTS =======-->
-         <div class="case1-section-area" id="service">
+         <div class="case1-section-area pb-120" id="service">
             <div class="container">
                <div class="row">
                   <div class="col-lg-12 m-auto">
@@ -363,53 +368,53 @@
                   <div class="col-lg-12" data-aos="zoom-out" data-aos-duration="1200">
                      <div class="cs_case_study_1_list">
                         <div class="cs_case_study cs_style_1 cs_hover_active active" data-aos="fade-up" data-aos-duration="800">
-                           <a href="#" class="cs_case_study_thumb cs_bg_filed" data-src="assets/img/all-images/case-img1.png')}}"></a>
+                           <a href="#" class="cs_case_study_thumb cs_bg_filed" data-src="{{url('/')}}/uploads/img45.jpg" style="background-image: url('{{url('/')}}/uploads/img45.jpg'); background-position: center; background-size: cover; background-repeat: no-repeat;"></a>
                            <div class="content-area1">
                               <a href="#">Family Business Succession</a>
                            </div>
                            <div class="content-area">
                               <a href="#">Family Business Succession  </a>
-                              <p>We understand the critical role that a well-designed and user-friendly website plays in shaping your online presence driving.</p>
+                              <p>Customized solutions for family businesses and other enterprises.</p>
                            </div>
                         </div>
                         <div class="cs_case_study cs_style_1 cs_hover_active" data-aos="fade-up" data-aos-duration="900">
-                           <a href="#" class="cs_case_study_thumb cs_case_study_thumb2 cs_bg_filed" data-src="assets/img/all-images/case-img2.png')}}"></a>
+                           <a href="#" class="cs_case_study_thumb cs_case_study_thumb2 cs_bg_filed" data-src="{{url('/')}}/uploads/img101-modified.jpg" style="background-image: url('{{url('/')}}/uploads/img101-modified.jpg'); background-position: center; background-size: cover; background-repeat: no-repeat;"></a>
                            <div class="content-area1">
                               <a href="#">Wealth Management</a>
                            </div>
                            <div class="content-area">
                               <a href="#">Wealth Management</a>
-                              <p>We understand the critical role that a well-designed and user-friendly website plays in shaping your online presence driving.</p>
+                              <p>personalized wealth Management services aligned with family values and goals </p>
                            </div>
                         </div>
                         <div class="cs_case_study cs_style_1 cs_hover_active" data-aos="fade-up" data-aos-duration="1000">
-                           <a href="#" class="cs_case_study_thumb cs_case_study_thumb3 cs_bg_filed" data-src="assets/img/all-images/case-img3.png')}}"></a>
+                           <a href="#" class="cs_case_study_thumb cs_case_study_thumb3 cs_bg_filed" data-src="{{url('/')}}/uploads/img112-modified.jpg" style="background-image: url('{{url('/')}}/uploads/img112-modified.jpg'); background-position: center; background-size: cover; background-repeat: no-repeat;"></a>
                            <div class="content-area1">
                               <a href="#">Governance and Leadership</a>
                            </div>
                            <div class="content-area">
                               <a href="#">Governance and Leadership</a>
-                              <p>We understand the critical role that a well-designed and user-friendly website plays in shaping your online presence driving.</p>
+                              <p>Establishing formal governance structures for sustained business success.</p>
                            </div>
                         </div>
                         <div class="cs_case_study cs_style_1 cs_hover_active" data-aos="fade-up" data-aos-duration="1100">
-                           <a href="#" class="cs_case_study_thumb cs_case_study_thumb4 cs_bg_filed" data-src="assets/img/all-images/case-img4.png')}}"></a>
+                           <a href="#" class="cs_case_study_thumb cs_case_study_thumb4 cs_bg_filed" data-src="{{url('/')}}/uploads/img23-modified.jpg" style="background-image: url('{{url('/')}}/uploads/img23-modified.jpg'); background-position: center; background-size: cover; background-repeat: no-repeat;"></a>
                            <div class="content-area1">
                               <a href="#">Financial Strategy and Formulation</a>
                            </div>
                            <div class="content-area">
                               <a href="#">Financial Strategy and Formulation</a>
-                              <p>We understand the critical role that a well-designed and user-friendly website plays in shaping your online presence driving.</p>
+                              <p>Customized solutions for family businesses and other enterprises.</p>
                            </div>
                         </div>
                         <div class="cs_case_study cs_style_1 cs_hover_active" data-aos="fade-up" data-aos-duration="1200">
-                           <a href="#" class="cs_case_study_thumb cs_case_study_thumb5 cs_bg_filed" data-src="assets/img/all-images/case-img5.png')}}"></a>
+                           <a href="#" class="cs_case_study_thumb cs_case_study_thumb5 cs_bg_filed" data-src="{{url('/')}}/uploads/img23-modified.jpg"  style="background-image: url('{{url('/')}}/uploads/img11-modified.jpg'); background-position: center; background-size: cover; background-repeat: no-repeat;"></a>
                            <div class="content-area1">
                               <a href="#">Training and Workshops</a>
                            </div>
                            <div class="content-area">
                               <a href="#">Training and Workshops</a>
-                              <p>We understand the critical role that a well-designed and user-friendly website plays in shaping your online presence driving.</p>
+                              <p>Providing ongoing education in financial management for family businesses.</p>
                            </div>
                         </div>
                      </div>
@@ -418,197 +423,367 @@
             </div>
          </div>
          <!--===== CASE AREA ENDS =======-->
+         <!--===== OUR TEAM STARTS =======-->
+         <div class="about1-section-area sp1 bg3" id="team">
+            <div class="container">
+               <div class="row align-items-center">
+                  <div class="col-lg-4">
+                     <div class="about-images">
+                        <figure class="image-anime reveal text-center">
+                           <img src="{{asset('uploads/img104.jpg')}}" alt="">
+                           <h3 class="theme-text text-thick">Joseph Njenga</h3>
+                           <span>Director, Corpus Kenya</span>
+                        </figure>
+                     </div>
+                  </div>
+                  <div class="col-lg-4">
+                     <div class="about-content-area heading14">
+                        <div class="arrow-circle">
+                           {{-- <a href="#">
+                           <img src="{{asset('theme/assets/img/elements/elements4.png')}}" alt="" class="elements4 keyframe5">
+                           <img src="{{asset('theme/assets/img/icons/arrow.svg')}}" alt="" class="arrow">
+                           </a> --}}
+                        </div>
+                        <h2 class="text-anime-style-3 theme-text">About our Team.</h2>
+                        <p data-aos="fade-left" data-aos-duration="1000">
+                            At our company, we are committed to transforming aspirations into
+                            achievements. We believe in the power of clear goals, strategic
+                            planning, and relentless execution to turn visions into reality.
+                        </p>
+                        <div class="btn-area" data-aos="fade-left" data-aos-duration="1200">
+                           <a href="#target" class="header-btn1">Target Markets<span><i class="fa-solid fa-arrow-right"></i></span></a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4">
+                     <div class="about-auhtor-images">
+                        <figure class="image-anime reveal text-center">
+
+                           <img style="min-width:416px;" src="{{asset('uploads/img18.jpg')}}" alt="">
+                           <h3 class="theme-text text-thick">Joyce Gitehi</h3>
+                           <span>Director, Corpus Kenya</span>
+                        </figure>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="space100 d-lg-block d-none"></div>
+         </div>
+        <!--===== OUR TEAM ENDS =======-->
          <!--===== TESTIMONIAL AREA STARTS =======-->
-         <div class="testimonial1-section-area sp6">
+         <div class="testimonial12-section-area sp6" id="testimonials">
             <div class="container">
-               <div class="row">
-                  <div class="col-lg-12 m-auto">
-                     <div class="testimonial-header heading2 text-center">
-                        <img src="{{asset('theme/assets/img/elements/star2.png')}}" alt="" class="star2 keyframe5">
-                        <img src="{{asset('theme/assets/img/elements/star2.png')}}" alt="" class="star3 keyframe5">
-                        <h2 class="text-anime-style-3">What Our Client Say <br class="d-md-block d-none"> On Google Reviews</h2>
-                        <p data-aos="fade-up" data-aos-duration="1000">Don't just take our word for it. Hear what our satisfied clients <br class="d-md-block d-none"> have to say about their experience partnering with corpus</p>
-                     </div>
+              <div class="row align-items-center">
+                <div class="col-lg-6">
+                  <div class="testimonial12-boxarea-vertical">
+                    <div class="testimonial-boxarea">
+                      <img src="{{asset('theme/assets/img/icons/quito7.svg')}}" alt="">
+                      <div class="space32"></div>
+                      <p>“We take pride in the success stories of our clients. Our commitment to delivering exceptional is reflected their feedback experiences. From enhanced operational efficiency to breakthrough market strategies.”</p>
+                      <div class="space32"></div>
+                      <div class="name-ara">
+                        <div class="text">
+                          <a href="#">Sarah L.</a>
+                          <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                          </ul>
+                        </div>
+                      <img src="{{asset('theme/assets/img/icons/google.svg')}}" alt="">
+                      </div>
+                    </div>
+
+                    <div class="testimonial-boxarea">
+                      <img src="{{asset('theme/assets/img/icons/quito7.svg')}}" alt="">
+                      <div class="space32"></div>
+                      <p>“We take pride in the success stories of our clients. Our commitment to delivering exceptional is reflected their feedback experiences. From enhanced operational efficiency to breakthrough market strategies.”</p>
+                      <div class="space32"></div>
+                      <div class="name-ara">
+                        <div class="text">
+                          <a href="#">Sarah L.</a>
+                          <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                          </ul>
+                        </div>
+                      <img src="{{asset('theme/assets/img/icons/google.svg')}}" alt="">
+                      </div>
+                    </div>
+
+                    <div class="testimonial-boxarea">
+                      <img src="{{asset('theme/assets/img/icons/quito7.svg')}}" alt="">
+                      <div class="space32"></div>
+                      <p>“We take pride in the success stories of our clients. Our commitment to delivering exceptional is reflected their feedback experiences. From enhanced operational efficiency to breakthrough market strategies.”</p>
+                      <div class="space32"></div>
+                      <div class="name-ara">
+                        <div class="text">
+                          <a href="#">Sarah L.</a>
+                          <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                          </ul>
+                        </div>
+                      <img src="{{asset('theme/assets/img/icons/google.svg')}}" alt="">
+                      </div>
+                    </div>
                   </div>
-               </div>
-               <div class="row">
-                  <div class="col-lg-8 m-auto" data-aos="fade-up" data-aos-duration="1000">
-                     <div class="testimonials-slider-area owl-carousel">
-                        <div class="testimonial-boxarea">
-                           <div class="row">
-                              <div class="col-lg-5">
-                                 <div class="pera">
-                                    <p>"Working with corpus has been a game-changer for our business. Their expertise in SEO and digital marketing has helped us achieve remarkable results and significantly increase our online visibility.</p>
-                                    <div class="space100"></div>
-                                    <div class="space30"></div>
-                                    <div class="list-area">
-                                       <div class="list">
-                                          <ul>
-                                             <li><i class="fa-solid fa-star"></i></li>
-                                             <li><i class="fa-solid fa-star"></i></li>
-                                             <li><i class="fa-solid fa-star"></i></li>
-                                             <li><i class="fa-solid fa-star"></i></li>
-                                             <li><i class="fa-solid fa-star"></i></li>
-                                          </ul>
-                                          <a href="team.html">John Doe</a>
-                                       </div>
-                                       <img src="{{asset('theme/assets/img/icons/google.svg')}}" alt="">
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="col-lg-7">
-                                 <div class="images">
-                                    <img src="{{asset('theme/assets/img/all-images/testimonial-img1.png')}}" alt="">
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="testimonial-boxarea">
-                           <div class="row">
-                              <div class="col-lg-5">
-                                 <div class="pera">
-                                    <p>"Working with corpus has been a game-changer for our business. Their expertise in SEO and digital marketing has helped us achieve remarkable results and significantly increase our online visibility.</p>
-                                    <div class="space100"></div>
-                                    <div class="space30"></div>
-                                    <div class="list-area">
-                                       <div class="list">
-                                          <ul>
-                                             <li><i class="fa-solid fa-star"></i></li>
-                                             <li><i class="fa-solid fa-star"></i></li>
-                                             <li><i class="fa-solid fa-star"></i></li>
-                                             <li><i class="fa-solid fa-star"></i></li>
-                                             <li><i class="fa-solid fa-star"></i></li>
-                                          </ul>
-                                          <a href="team.html">John Doe</a>
-                                       </div>
-                                       <img src="{{asset('theme/assets/img/icons/google.svg')}}" alt="">
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="col-lg-7">
-                                 <div class="images">
-                                    <img src="{{asset('theme/assets/img/all-images/testimonial-img2.png')}}" alt="">
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="testimonial-boxarea">
-                           <div class="row">
-                              <div class="col-lg-5">
-                                 <div class="pera">
-                                    <p>"Working with corpus has been a game-changer for our business. Their expertise in SEO and digital marketing has helped us achieve remarkable results and significantly increase our online visibility.</p>
-                                    <div class="space100"></div>
-                                    <div class="space30"></div>
-                                    <div class="list-area">
-                                       <div class="list">
-                                          <ul>
-                                             <li><i class="fa-solid fa-star"></i></li>
-                                             <li><i class="fa-solid fa-star"></i></li>
-                                             <li><i class="fa-solid fa-star"></i></li>
-                                             <li><i class="fa-solid fa-star"></i></li>
-                                             <li><i class="fa-solid fa-star"></i></li>
-                                          </ul>
-                                          <a href="team.html">John Doe</a>
-                                       </div>
-                                       <img src="{{asset('theme/assets/img/icons/google.svg')}}" alt="">
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="col-lg-7">
-                                 <div class="images">
-                                    <img src="{{asset('theme/assets/img/all-images/testimonial-img2.png')}}" alt="">
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-5">
+                  <div class="testimonial-haeder heading18">
+                    <h5 data-aos="fade-left" data-aos-duration="800">Testimonial</h5>
+                    <div class="space16"></div>
+                    <h2 class="text-anime-style-3">Transformation That Speak for Themselves</h2>
+                    <div class="space20"></div>
+                    <p data-aos="fade-left" data-aos-duration="1000">Their testimonials not only showcase our dedication but also <br class="d-lg-block d-none"> illustrate the real-world benefits of partnering with.</p>
+                    <div class="space32"></div>
+                    <div class="btn-area1" data-aos="fade-left" data-aos-duration="1200">
+                      <a href="#" class="header-btn20">Get It Know <i class="fa-solid fa-angle-right"></i></a>
+                    </div>
                   </div>
-               </div>
+                </div>
+              </div>
             </div>
-         </div>
+          </div>
          <!--===== TESTIMONIAL AREA ENDS =======-->
-         <!--===== BLOG AREA STARTS =======-->
-         <div class="blog1-scetion-area">
+
+         <!--===== TARGET MARKET STARTS =======-->
+        <div class="service5-section-area sp1 bg3" id="target">
             <div class="container">
-               <div class="row">
-                  <div class="col-lg-12 m-auto">
-                     <div class="blog-hedaer-area heading2 text-center">
-                        <img src="{{asset('theme/assets/img/elements/star2.png')}}" alt="" class="star2 keyframe5">
-                        <img src="{{asset('theme/assets/img/elements/star2.png')}}" alt="" class="star3 keyframe5">
-                        <h2 class="text-anime-style-3">Insights & Innovations: <br class="d-md-block d-none"> Our Latest Blog Posts</h2>
-                        <p data-aos="fade-up" data-aos-duration="1000">Explore our blog to discover actionable insights, success stories, and <br class="d-md-block d-none"> expert advice that can help drive growth for your business.</p>
-                     </div>
-                  </div>
-               </div>
-               <div class="row">
-                  <div class="col-lg-4 col-md-6">
-                     <div class="blog-author-boxarea" data-aos="fade-right" data-aos-duration="800">
-                        <div class="img1">
-                           <img src="{{asset('theme/assets/img/all-images/blog-img1.png')}}" alt="">
+                <div class="row">
+                    <div class="col-lg-8 m-auto">
+                        <div class="service-header text-center heading14">
+                            <h2 class="text-anime-style-3">Target Markets</h2>
                         </div>
+                    </div>
+                </div>
+                <div class="row">
+                <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-duration="800">
+                    <div class="service-author-boxarea">
+                        <h4>01</h4>
+                        <div class="space40"></div>
+                        <div class="img1 image-anime">
+                            <img src="{{asset('uploads/img39.jpg')}}" alt="">
+                        </div>
+                        <div class="space40"></div>
                         <div class="content-area">
-                           <div class="tags-area">
-                              <ul>
-                                 <li><a href="#"><img src="{{asset('theme/assets/img/icons/contact1.svg')}}" alt="">Ben Stokes</a></li>
-                                 <li><a href="#"><img src="{{asset('theme/assets/img/icons/calender1.svg')}}" alt="">16 August 2023</a></li>
-                              </ul>
-                           </div>
-                           <a href="blog-single.html">10 Essential SEO Tips to Boost Your Website's Ranking</a>
-                           <p>Are you looking to improve your website's visibility and attract more organic traffic? </p>
-                           <a href="blog-single.html" class="readmore">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="#" style="min-height:40px">Established Family Businesses</a>
+                            <p>Corpus empowers established family businesses with tools to modernize operations, foster growth, and preserve generational legacies.</p>
                         </div>
-                     </div>
-                     <div class="space30 d-lg-none d-block"></div>
-                  </div>
-                  <div class="col-lg-4 col-md-6">
-                     <div class="blog-author-boxarea" data-aos="fade-up" data-aos-duration="1000">
-                        <div class="img1">
-                           <img src="{{asset('theme/assets/img/all-images/blog-img2.png')}}" alt="">
-                        </div>
-                        <div class="content-area">
-                           <div class="tags-area">
-                              <ul>
-                                 <li><a href="#"><img src="{{asset('theme/assets/img/icons/contact1.svg')}}" alt="">Ben Stokes</a></li>
-                                 <li><a href="#"><img src="{{asset('theme/assets/img/icons/calender1.svg')}}" alt="">16 August 2023</a></li>
-                              </ul>
-                           </div>
-                           <a href="blog-single.html">The Power of PPC Advertising: How to Maximize Your ROI</a>
-                           <p>Unlock the full potential of your digital marketing strategy with the power of PPC.</p>
-                           <a href="blog-single.html" class="readmore">Read More <i class="fa-solid fa-arrow-right"></i></a>
-                        </div>
-                     </div>
-                     <div class="space30 d-lg-none d-block"></div>
-                  </div>
-                  <div class="col-lg-4 col-md-6">
-                     <div class="blog-author-boxarea" data-aos="fade-left" data-aos-duration="1200">
-                        <div class="img1">
-                           <img src="{{asset('theme/assets/img/all-images/blog-img3.png')}}" alt="">
-                        </div>
-                        <div class="content-area">
-                           <div class="tags-area">
-                              <ul>
-                                 <li><a href="#"><img src="{{asset('theme/assets/img/icons/contact1.svg')}}" alt="">Ben Stokes</a></li>
-                                 <li><a href="#"><img src="{{asset('theme/assets/img/icons/calender1.svg')}}" alt="">16 August 2023</a></li>
-                              </ul>
-                           </div>
-                           <a href="blog-single.html">The Importance of Responsive Web Design in the Mobile Age</a>
-                           <p>Where mobile devices dominate internet usage, responsive web design more crucial.</p>
-                           <a href="blog-single.html" class="readmore">Read More <i class="fa-solid fa-arrow-right"></i></a>
-                        </div>
-                     </div>
-                  </div>
-               </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="service-author-boxarea ">
+                    <h4>02</h4>
+                    <div class="space40"></div>
+                    <div class="img1 image-anime">
+                        <img style="min-height:245px; object-fit:cover" src="{{asset('uploads/img401.jpg')}}" alt="">
+                    </div>
+                    <div class="space40"></div>
+                    <div class="content-area">
+                        <a href="#" style="min-height:40px">High-Net-Worth Individuals</a>
+                        <p>Corpus caters to high-net-worth individuals, offering bespoke solutions to manage wealth, enhance lifestyles, and secure legacies.</p>
+                    </div>
+                </div>
             </div>
-         </div>
-         <!--===== BLOG AREA ENDS =======-->
+
+            <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-duration="1200">
+                <div class="service-author-boxarea ">
+                    <h4>03</h4>
+                    <div class="space40"></div>
+                    <div class="img1 image-anime">
+                        <img style="min-height:245px; object-fit:cover" src="{{asset('uploads/img466.jpg')}}" alt="">
+                    </div>
+                    <div class="space40"></div>
+                    <div class="content-area">
+                        <a href="#" style="min-height:40px">Entrepreneurial Ventures & Start-Ups with Growth Potential</a>
+                        <p>Corpus supports entrepreneurial ventures and start-ups, providing resources to scale, innovate, and unlock their growth potential.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-duration="1200">
+                <div class="service-author-boxarea">
+                    <h4>04</h4>
+                    <div class="space40"></div>
+                    <div class="img1 image-anime">
+                        <img style="min-height:245px; object-fit:cover" src="{{asset('uploads/img4555.jpg')}}" alt="">
+                    </div>
+                    <div class="space40"></div>
+                    <div class="content-area">
+                        <a href="#" style="min-height:40px">Corporate Executives and Senior Managers in Family Businesses</a>
+                        <p>Corpus aids corporate executives and senior managers in family businesses with strategies to streamline operations and drive success.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-duration="1200">
+                <div class="service-author-boxarea box5">
+                    <h4>05</h4>
+                    <div class="space40"></div>
+                    <div class="img1 image-anime">
+                        <img style="min-height:245px; object-fit:cover" src="{{asset('uploads/img1099.jpg')}}" alt="">
+                    </div>
+                    <div class="space40"></div>
+                    <div class="content-area">
+                        <a href="#" style="min-height:40px">Families</a>
+                        <p>Corpus serves families with tailored solutions to enhance well-being, secure futures, and strengthen intergenerational bonds.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-duration="1200">
+                <div class="service-author-boxarea box6">
+                    <h4>06</h4>
+                    <div class="space40"></div>
+                    <div class="img1 image-anime">
+                        <img style="min-height:245px; object-fit:cover" src="{{asset('uploads/img11221.jpg')}}" alt="">
+                    </div>
+                    <div class="space40"></div>
+                    <div class="content-area">
+                        <a href="#" style="min-height:40px">Owners and Directors of SMEs</a>
+                        <p>Corpus partners with SME owners and directors, delivering strategies and tools to optimize operations, drive growth, and achieve goals.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-12">
+            <div class="space30"></div>
+
+            </div>
+                </div>
+            </div>
+        </div>
+        <!--===== TARGET MARKET ENDS =======-->
+        <!--===== BOOST AREA STARTS =======-->
+        <div class="boost-section-area sp1 " style="background-color: #ffffff">
+            <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                <div class="boost-header heading12">
+                    <h5 data-aos="fade-right" data-aos-duration="800">Boost</h5>
+                    <h2 class="text-anime-style-3 theme-text">Key Differentiators</h2>
+                    <p data-aos="fade-right" data-aos-duration="1000">
+                        <div class="right-area">
+                            <div class="content">
+                                <p><strong>Expertise in Family Businesses:</strong> Deep understanding of the unique challenges faced by family businesses.</p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="right-area">
+                            <div class="content">
+                                <p><strong>Personalized Approach:</strong> Offering customized financial advisory solutions that resonate with each client's specific needs</p>
+                            </div>
+                        </div>
+                    </p>
+                    <div class="space32"></div>
+                    <div class="bnt-area1" data-aos="fade-right" data-aos-duration="1200">
+                    <a href="#service" class="header-btn12">Lets Find Out <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                </div>
+                <div class="col-lg-8">
+                <div class="images image-anime" data-aos="fade-left" data-aos-duration="1000">
+                    <img src="{{asset('uploads/img1133.jpg')}}" alt="">
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!--===== BOOST AREA ENDS =======-->
+        {{--  --}}
+        <!--===== STRETEGY AREA STARTS =======-->
+        <div class="works4-section-area sp2" id="strategy">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="works4-header heading8">
+                            <h5 data-aos="fade-up" data-aos-duration="800"><img src="assets/img/icons/logo-icons3.svg" alt="">Work Process</h5>
+                            <h2 class="text-anime-style-1">Growth Strategy</span></h2>
+                            <div class="space10 d-lg-block d-none"></div>
+                            <p data-aos="fade-up" data-aos-duration="1000">A robust growth strategy focuses on leveraging market insights, fostering innovation, and building strategic partnerships to drive long-term success.</p>
+                            <div class="space32"></div>
+                            <div class="btn-area1" data-aos="fade-up" data-aos-duration="1200">
+                                <a href="#contact" class="header-btn12">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-7">
+                        <div class="case-images">
+                            <figure class="image-anime reveal">
+                                <img src="{{asset('uploads/img577.jpg')}}" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="space50"></div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-duration="800">
+                        <div class="works-author-boxarea">
+                            <div class="icons">
+                                <img src="{{asset('theme/assets/img/icons/check12.svg')}}" alt="">
+                            </div>
+                            <div class="space24"></div>
+                            <div class="content-area">
+                                <a href="#">Workshops and Seminars</a>
+                                <p> Hosting events focused on financial management and business growth.</p>
+                                <a href="#service" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="works-author-boxarea">
+                            <div class="icons">
+                                <img src="{{asset('theme/assets/img/icons/check12.svg')}}" alt="">
+                            </div>
+                            <div class="space24"></div>
+                            <div class="content-area">
+                                <a href="#">Digital Presence</a>
+                                <p>Strengthening online presence through a user-friendly website, social media engagement, and digital marketing.</p>
+                                <a href="#service" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-duration="1200">
+                        <div class="works-author-boxarea">
+                            <div class="icons">
+                                <img src="{{asset('theme/assets/img/icons/check12.svg')}}" alt="">
+                            </div>
+                            <div class="space24"></div>
+                            <div class="content-area">
+                                <a href="#">Content Marketing</a>
+                                <p>Creating valuable content such as blogs, whitepapers, and case studies.</p>
+                                <a href="#service" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--===== WORK AREA ENDS =======-->
+        {{--  --}}
+
          <!--===== CONTACT AREA STARTS =======-->
-         <div class="contact1-section-area sp6">
+         <div class="contact1-section-area sp6" id="contact">
             <div class="container">
                <div class="row">
                   <div class="col-lg-12 m-auto">
                      <div class="contact-header-area text-center heading2">
-                        <img src="{{asset('theme/assets/img/elements/star2.png')}}" alt="" class="star2 keyframe5">
-                        <img src="{{asset('theme/assets/img/elements/star2.png')}}" alt="" class="star3 keyframe5">
+                        {{-- <img src="{{asset('theme/assets/img/elements/star2.png')}}" alt="" class="star2 keyframe5">
+                        <img src="{{asset('theme/assets/img/elements/star2.png')}}" alt="" class="star3 keyframe5"> --}}
                         <h2 class="text-anime-style-3">Get In Touch With Us Today</h2>
                         <p>We're here to help! If you have any questions or would like to discuss <br class="d-md-block d-none">how some of our financial services can benefit your business,</p>
                      </div>
@@ -618,7 +793,9 @@
                   <div class="col-lg-5" data-aos="zoom-out" data-aos-duration="1000">
                      <div class="contact-info-area">
                         <h3>Contact Info</h3>
-                        <p>We're here to help! If you have any questions or would like to discuss how our SEO and digital marketing services can benefit your business</p>
+                        <p style="min-height:55px; visibility:hidden">
+                            We are committed to transforming aspirations into achievements. We believe in the power of clear goals, strategic planning, and relentless execution to turn visions into reality.
+                        </p>
                         <div class="space32"></div>
                         <div class="contact-auhtor-box">
                            <div class="icons">
@@ -683,11 +860,11 @@
                                  <div class="input-area">
                                     <select name="country" id="country" class="country-area nice-select6">
                                        <option value="1" data-display="Service Type">Service Type</option>
-                                       <option value="">Belgium</option>
-                                       <option value="">Brezil</option>
-                                       <option value="">Argentina</option>
-                                       <option value="">Bangladesh</option>
-                                       <option value="">Germany</option>
+                                       <option value="">Family Business Succession</option>
+                                       <option value="">Wealth Management</option>
+                                       <option value="">Governance and Leadership</option>
+                                       <option value="">Financial Strategy and Formulation</option>
+                                       <option value="">Training and Workshops</option>
                                     </select>
                                  </div>
                               </div>
@@ -698,7 +875,7 @@
                               </div>
                               <div class="col-lg-12">
                                  <div class="input-area">
-                                    <button class="header-btn1">Free Consultation <span><i class="fa-solid fa-arrow-right"></i></span></button>
+                                    <button class="header-btn1">Proceed <span><i class="fa-solid fa-arrow-right"></i></span></button>
                                  </div>
                               </div>
                            </div>
@@ -709,92 +886,103 @@
             </div>
          </div>
          <!--===== CONTACT AREA ENDS =======-->
+
          <!--===== CTA AREA STARTS =======-->
-         <div class="cta-section-area">
-            <img src="{{asset('theme/assets/img/bg/cta-bg1.png')}}" alt="" class="cta-bg1 aniamtion-key-2">
-            <img src="{{asset('theme/assets/img/bg/cta-bg2.png')}}" alt="" class="cta-bg2 aniamtion-key-1">
+        <div class="cta3-section-area">
             <div class="container">
-               <div class="row">
-                  <div class="col-lg-12 m-auto">
-                     <div class="cta-header-area text-center sp4 heading2">
-                        <h2 class="text-anime-style-3">Ready To Take Your SEO To <br class="d-md-block d-none"> The Next Level</h2>
-                        <p data-aos="fade-up" data-aos-duration="1000">Effective SEO strategies not only elevate a website's visibility but also drive <br class="d-md-block d-none"> targeted traffic, enhance user experience,</p>
-                        <div class="btn-area text-center" data-aos="fade-up" data-aos-duration="1200">
-                           <a href="#contact" class="header-btn1">Free Consultation <span><i class="fa-solid fa-arrow-right"></i></span></a>
+            <div class="row">
+                <div class="col-lg-12">
+                <div class="cta-author-area">
+                    <div class="row">
+                    <div class="col-lg-5">
+                        <div class="cta2-header heading6">
+                        <h2 class="text-anime-style-3">Ready to Take Your Business To The Next Level</h2>
+                        <p data-aos="fade-up" data-aos-duretion="1200">
+                            We are committed to transforming aspirations into
+                            achievements. We believe in the power of clear goals, strategic
+                            planning, and relentless execution to turn visions into reality.
+                        </p>
+                        <div class="space24"></div>
+                        <div class="btn-area" data-aos="fade-up" data-aos-duretion="1400">
+                            <a href="#contact" class="header-btn5">Get Started Now</a>
                         </div>
-                     </div>
-                  </div>
-               </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-4">
+                        <div class="images">
+                        <img src="{{asset('theme/assets/img/elements/elements8.png')}}" alt="" class="elements6 aniamtion-key-2">
+                        <img src="{{asset('theme/assets/img/elements/star6.png')}}" alt="" class="elements7 keyframe5">
+                        <img src="{{asset('theme/assets/img/bg/cta-bg3.png')}}" alt="" class="bg1 aniamtion-key-5">
+                        <img src="{{asset('theme/assets/img/all-images/cta-img1.png')}}" alt="" class="cta-img1">
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
             </div>
-         </div>
+            </div>
+        </div>
+        <!--===== CTA AREA ENDS =======-->
          <!--===== CTA AREA ENDS =======-->
-         <!--===== FOOTER AREA STARTS =======-->
-         <div class="footer1-section-area">
+         <div class="footer13-section-area">
             <div class="container">
-               <div class="row">
-                  <div class="col-lg-3 col-md-6">
-                     <div class="footer-logo-area">
-                        <img width="150" src="{{asset('uploads/logooo.png')}}" alt="">
-                        <p>By optimizing content, leveraging relevant keywords, and adhering to best practices, businesses can secure prominent position (SEO)</p>
-                        <ul>
-                           <li><a href="#"><img src="{{asset('theme/assets/img/icons/facebook.svg')}}" alt=""></a></li>
-                           <li><a href="#"><img src="{{asset('theme/assets/img/icons/instagram.svg')}}" alt=""></a></li>
-                           <li><a href="#"><img src="{{asset('theme/assets/img/icons/linkedin.svg')}}" alt=""></a></li>
-                           <li><a href="#"><img src="{{asset('theme/assets/img/icons/youtube.svg')}}" alt=""></a></li>
-                        </ul>
-                     </div>
+              <div class="row">
+                <div class="col-lg-3 col-md-6">
+                  <div class="footer-logo-area">
+                    <img width="150" src="{{asset('uploads/logooo.png')}}" alt="">
+                    <ul>
+                      <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                      <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                      <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                      <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                    </ul>
                   </div>
-                  <div class="col-lg-2 col-md-6">
-                     <div class="footer-logo-area1">
-                        <h3>About Link</h3>
-                        <ul>
-                           <li><a href="blog.html">Our Blog</a></li>
-                           <li><a href="about.html">About Us</a></li>
-                           <li><a href="#">Services</a></li>
-                           <li><a href="case.html">Marketing</a></li>
-                           <li><a href="testimonials.html">Testimonials</a></li>
-                           <li><a href="#contact">Contact Us</a></li>
-                        </ul>
-                     </div>
+                </div>
+
+
+
+                <div class="col-lg-4 col-md-6">
+                  <div class="footer-logo-area2">
+                    <h3>Get in touch</h3>
+                    <ul>
+                      <li><a href="mailto"><img src="{{asset('theme/assets/img/icons/email.svg')}}" alt=""><span>info@corpusinvestmentsltd.com</span></a></li>
+                      <li><a href="#"><img src="{{asset('theme/assets/img/icons/location.svg')}}" alt=""><span>Muthangari Rd, Nairobi </span></a></li>
+                      <li><a href="tel:+254 (0) 796 357 344"><img src="{{asset('theme/assets/img/icons/phone.svg')}}" alt=""><span>+254 (0) 796 357 344</span></a></li>
+                    </ul>
                   </div>
-                  <div class="col-lg-3 col-md-6">
-                     <div class="footer-logo-area2">
-                        <h3>Get in touch</h3>
-                        <ul>
-                           <li><a href="mailto"><img src="{{asset('theme/assets/img/icons/email.svg')}}" alt=""><span>Infocorpus@gmail.com</span></a></li>
-                           <li><a href="#"><img src="{{asset('theme/assets/img/icons/location.svg')}}" alt=""><span>8708 Technology Forest <br class="d-lg-block d-none"> Pl Suite 125 -G, The <br class="d-lg-block d-none"> Woodlands, TX 773</span></a></li>
-                           <li><a href="tel:123-456-7890"><img src="{{asset('theme/assets/img/icons/phone.svg')}}" alt=""><span>123-456-7890</span></a></li>
-                        </ul>
-                     </div>
+                </div>
+                <div class="col-lg-5 col-md-6">
+                  <div class="footer-logo-area3">
+                    <h3>Subscribe Our Newsletter</h3>
+
+                    <form action="#">
+                      <input type="text" placeholder="Enter Your email">
+                      <div class="space16"></div>
+                      <button class="header-btn21"> Subscribe <span><i class="fa-solid fa-arrow-right"></i></span></button>
+                    </form>
                   </div>
-                  <div class="col-lg-4 col-md-6">
-                     <div class="footer-logo-area3">
-                        <h3>Subscribe Our Newsletter</h3>
-                        <form action="#">
-                           <input type="text" placeholder="Enter Your email">
-                           <button class="header-btn1"> Subscribe <span><i class="fa-solid fa-arrow-right"></i></span></button>
-                        </form>
-                     </div>
-                  </div>
-               </div>
-               <div class="space80 d-lg-block d-none"></div>
-               <div class="space40 d-lg-none d-block"></div>
-               <div class="row">
-                  <div class="col-lg-12">
-                     <div class="copyright-area">
-                        <div class="pera">
-                           <p>ⓒCopyright {{date('Y')}} Corpus . All rights reserved | Powered By Designekta Studios</p>
-                        </div>
-                        <ul>
-                           <li><a href="#">Terms & Conditions</a></li>
-                           <li><a href="#" class="m-0"> Privacy Policy </a></li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
+                </div>
+              </div>
+              <div class="space50 d-lg-block d-none"></div>
+              <div class="space40 d-lg-none d-block"></div>
+              <div class="row">
+                <div class="col-lg-12">
+                   <div class="copyright-area">
+                      <div class="pera">
+                         <p>ⓒCopyright {{date('Y')}} Corpus . All rights reserved | Powered By Designekta Studios</p>
+                      </div>
+                      <ul>
+                         <li><a href="#">Terms & Conditions</a></li>
+                         <li><a href="#" class="m-0"> Privacy Policy </a></li>
+                      </ul>
+                   </div>
+                </div>
+             </div>
+
             </div>
-         </div>
-         <!--===== FOOTER AREA ENDS =======-->
+          </div>
+
       </div>
       <!--===== JS SCRIPT LINK =======-->
       <script src="{{asset('theme/assets/js/plugins/bootstrap.min.js')}}"></script>
@@ -814,5 +1002,17 @@
       <script src="{{asset('theme/assets/js/plugins/slick-slider.js')}}"></script>
       <script src="{{asset('theme/assets/js/plugins/circle-progress.js')}}"></script>
       <script src="{{asset('theme/assets/js/main.js')}}"></script>
+      <script>
+        // Add active class to the current button (highlight it)
+        var header = document.getElementById("menu");
+        var btns = header.getElementsByClassName("nav-link");
+        for (var i = 0; i < btns.length; i++) {
+          btns[i].addEventListener("click", function() {
+          var current = document.getElementsByClassName("active");
+          current[0].className = current[0].className.replace(" active", "");
+          this.className += " active";
+          });
+        }
+        </script>
    </body>
 </html>
