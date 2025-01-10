@@ -825,7 +825,7 @@
                   <div class="col-lg-5" data-aos="zoom-out" data-aos-duration="1000">
                      <div class="contact-info-area">
                         <h3>Contact Info</h3>
-                        <p style="min-height:55px; visibility:hidden">
+                        <p >
                             We are committed to transforming aspirations into achievements. We believe in the power of clear goals, strategic planning, and relentless execution to turn visions into reality.
                         </p>
                         <div class="space32"></div>
@@ -865,7 +865,7 @@
                   <div class="col-lg-7" data-aos="zoom-out" data-aos-duration="1200">
                      <div class="contact-boxarea">
                         <h3>Get In Touch</h3>
-                        <p>We're here to help! If you have any questions or would like to discuss <br class="d-lg-block d-none"> how our SEO and digital marketing services can benefit your business,</p>
+                        <p style="min-height:55px; visibility:hidden">We're here to help! If you have any questions or would like to discuss <br class="d-lg-block d-none"> how our SEO and digital marketing services can benefit your business,</p>
                         <form action="https://api.web3forms.com/submit" method="POST">
                            <div class="row">
                               <div class="col-lg-6">
