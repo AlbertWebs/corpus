@@ -198,7 +198,7 @@
       </div>
       <!--===== MOBILE HEADER STARTS =======-->
       <!--===== HERO AREA STARTS =======-->
-      <div class="hero1-section-area" style="background-image: url('{{asset('theme/assets/img/bg/header-imgbg.png')}}');">
+      <div class="hero1-section-area">
          <img src="{{asset('theme/assets/img/elements/elements20.png')}}" alt="" class="elements1 aniamtion-key-1">
          <div class="container">
             <div class="row align-items-center">
@@ -206,19 +206,19 @@
                   <div class="header-main-content heading1">
                      <h5>#Empowering Growth, Preserving Legacies</h5>
                      <h1 class="text-anime-style-3">Tailored Solutions to Empower Your Growth and Preserve Your Legacy</h1>
-                     <p data-aos="fade-left" data-aos-duration="1000">We are committed to transforming aspirations into achievements. We believe in the power of clear goals, strategic
+                     <p data-aos="fade-left" data-aos-duration="2000">We are committed to transforming aspirations into achievements. We believe in the power of clear goals, strategic
                         planning, and relentless execution to turn visions into reality
                      </p>
                      <div class="btn-area" data-aos="fade-left" data-aos-duration="1200">
-                        <a href="#contact" class="header-btn1">Talk To Us Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                        <a href="#contact" class="header-btn2">Contact Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
+                        <a href="#contact" class="header-btn1 text-anime-style-1">Talk To Us Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
+                        <a href="#contact" class="header-btn2 text-anime-style-1">Contact Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
                      </div>
                   </div>
                </div>
                <div class="col-lg-5">
                   <div class="header-images-area">
                      <div class="main-images-area">
-                        <div class="img1">
+                        <div class="img1 image-anime reveal">
                            <img style="width:576px; object-fit:contain;" src="{{asset('uploads/undraw_data-trends_mg54.svg')}}" alt="" data-aos="zoom-in" data-aos-duration="1000">
                         </div>
                         {{--
