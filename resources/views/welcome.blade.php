@@ -48,6 +48,8 @@
       <link rel="stylesheet" href="{{asset('theme/assets/css/plugins/slick-slider.css')}}">
       <link rel="stylesheet" href="{{asset('theme/assets/css/plugins/nice-select.css')}}">
       <link rel="stylesheet" href="{{asset('theme/assets/css/main.css')}}">
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
       <!--=====  JS SCRIPT LINK =======-->
       <script src="{{asset('theme/assets/js/plugins/jquery-3-6-0.min.js')}}"></script>
    </head>
@@ -215,11 +217,11 @@
                      </div>
                   </div>
                </div>
-               <div class="col-lg-5">
+               <div class="col-lg-5" >
                   <div class="header-images-area">
                      <div class="main-images-area">
                         <div class="img1 image-anime reveal">
-                           <img style="width:576px; object-fit:contain;" src="{{asset('uploads/undraw_data-trends_mg54.svg')}}" alt="" data-aos="zoom-in" data-aos-duration="1000">
+                           <img style="width:576px; object-fit:contain;" src="{{asset('uploads/undraw_data-trends_mg54.svg')}}" alt="">
                         </div>
                      </div>
                   </div>
@@ -229,7 +231,7 @@
       </div>
       <!--===== HERO AREA ENDS =======-->
       <!--===== TESTIMONIAL AREA STARTS =======-->
-      <div class="slider-section-area sp5" id="client" data-aos="fade-up" data-aos-duration="1000">
+      <div class="slider-section-area sp5" id="client" >
          <div class="container">
             <div class="row align-items-center">
                <div class="col-lg-2">
@@ -262,7 +264,7 @@
             <div class="container">
                <div class="row align-items-center">
                   <div class="col-lg-6">
-                     <div class="about-images-area reveal" data-aos="fade-up" data-aos-duration="2000">
+                     <div class="about-images-area reveal">
                         <img src="{{asset('uploads/img101.jpg')}}" alt="">
                      </div>
                   </div>

@@ -568,7 +568,7 @@ $('.project12-slider-area').owlCarousel({
       }
   }
 });
-    
+
 // testimonial //
 $('.service-slider').owlCarousel({
   loop:true,
