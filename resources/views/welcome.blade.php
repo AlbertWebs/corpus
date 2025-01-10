@@ -3,7 +3,39 @@
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Corpus - trusted professional services</title>
+
+      {{--  --}}
+        <!-- Meta Tags -->
+        <title>Corpus Limited - Tailored Solutions for Growth and Legacy</title>
+        <meta name="description" content="Corpus is a trusted professional services firm committed to fostering growth and creating lasting legacies for our clients. Explore our tailored solutions to meet your objectives and preserve your legacy.">
+        <meta name="keywords" content="Corpus Limited, professional services, growth solutions, legacy planning, tailored solutions, business strategies, client-focused solutions">
+        <meta name="author" content="Designekta Studios">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="index, follow">
+
+        <!-- Open Graph Tags -->
+        <meta property="og:title" content="Corpus Limited - Tailored Solutions for Growth and Legacy">
+        <meta property="og:description" content="Corpus is a trusted professional services firm committed to fostering growth and creating lasting legacies for our clients. Explore our tailored solutions to meet your objectives and preserve your legacy.">
+        <meta property="og:image" content="https://corpus.designekta.com/uploads/logooo.png">
+        <meta property="og:url" content="https://corpus.designekta.com/">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Corpus Limited">
+
+        <!-- Twitter Card Tags -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Corpus Limited - Tailored Solutions for Growth and Legacy">
+        <meta name="twitter:description" content="Corpus is a trusted professional services firm committed to fostering growth and creating lasting legacies for our clients. Explore our tailored solutions to meet your objectives and preserve your legacy.">
+        <meta name="twitter:image" content="https://corpus.designekta.com/uploads/logooo.png">
+        <meta name="twitter:url" content="https://corpus.designekta.com/">
+        <meta name="twitter:site" content="@Designekta">
+
+        <!-- Favicon -->
+        <link rel="icon" href="https://corpus.designekta.com/uploads/logooo.png" type="image/png">
+
+        <!-- Canonical Tag -->
+        <link rel="canonical" href="https://corpus.designekta.com/">
+
+      {{--  --}}
       <!--=====FAB ICON=======-->
       <link rel="shortcut icon" href="{{asset('uploads/logoo.png')}}" type="image/x-icon">
       <!--===== CSS LINK =======-->
