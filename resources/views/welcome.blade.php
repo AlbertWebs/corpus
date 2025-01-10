@@ -206,7 +206,7 @@
                   <div class="header-main-content heading1">
                      <h5>#Empowering Growth, Preserving Legacies</h5>
                      <h1 class="text-anime-style-3">Tailored Solutions to Empower Your Growth and Preserve Your Legacy</h1>
-                     <p data-aos="fade-left" data-aos-duration="2000">We are committed to transforming aspirations into achievements. We believe in the power of clear goals, strategic
+                     <p data-aos="fade-left" data-aos-duration="2000" class="text-anime-style-3">We are committed to transforming aspirations into achievements. We believe in the power of clear goals, strategic
                         planning, and relentless execution to turn visions into reality
                      </p>
                      <div class="btn-area" data-aos="fade-left" data-aos-duration="1200">
@@ -221,23 +221,6 @@
                         <div class="img1 image-anime reveal">
                            <img style="width:576px; object-fit:contain;" src="{{asset('uploads/undraw_data-trends_mg54.svg')}}" alt="" data-aos="zoom-in" data-aos-duration="1000">
                         </div>
-                        {{--
-                        <div class="img2">
-                           <img src="{{asset('theme/assets/img/bg/header-imgbg.png')}}" alt="">
-                        </div>
-                        <div class="icons-area">
-                           <img src="{{asset('theme/assets/img/icons/sound-icons1.svg')}}" alt="" class="sound-icons1 aniamtion-key-1">
-                           <img src="{{asset('theme/assets/img/icons/lite-icons1.svg')}}" alt="" class="lite-icons1 aniamtion-key-1">
-                        </div>
-                        <div class="auhtor-icons">
-                           <img src="{{asset('theme/assets/img/elements/elements2.png')}}" alt="" class="elements2">
-                           <img src="{{asset('theme/assets/img/elements/elements3.png')}}" alt="" class="elements3">
-                        </div>
-                        <div class="auhtor-images">
-                           <img src="{{asset('theme/assets/img/all-images/header-author-img1.png')}}" alt="" class="header-author-img1 aniamtion-key-2">
-                           <img src="{{asset('theme/assets/img/all-images/header-author-img2.png')}}" alt="" class="header-author-img2 aniamtion-key-2">
-                        </div>
-                        --}}
                      </div>
                   </div>
                </div>
@@ -246,12 +229,12 @@
       </div>
       <!--===== HERO AREA ENDS =======-->
       <!--===== TESTIMONIAL AREA STARTS =======-->
-      <div class="slider-section-area sp5" id="client">
+      <div class="slider-section-area sp5" id="client" data-aos="fade-up" data-aos-duration="1000">
          <div class="container">
             <div class="row align-items-center">
                <div class="col-lg-2">
                   <div class="sldier-head">
-                     <p>Trusted by  <br class="d-lg-block d-none"> Top Companies</p>
+                     <p class="text-anime-style-3">Trusted by  <br class="d-lg-block d-none"> Top Companies</p>
                   </div>
                </div>
                <div class="col-lg-10">
@@ -279,15 +262,15 @@
             <div class="container">
                <div class="row align-items-center">
                   <div class="col-lg-6">
-                     <div class="about-images-area reveal">
+                     <div class="about-images-area reveal" data-aos="fade-up" data-aos-duration="2000">
                         <img src="{{asset('uploads/img101.jpg')}}" alt="">
                      </div>
                   </div>
                   <div class="col-lg-6">
                      <div class="about-header-area heading6">
                         <h5>Who we are </h5>
-                        <h2 class="text-anime-style-3">Company Overview</h2>
-                        <p data-aos="fade-left" data-aos-duretion="1000">
+                        <h2 class="text-anime-style-3 theme-text">Company Overview</h2>
+                        <p data-aos="fade-left" data-aos-duration="1000" class="text-anime-style-3">
                            Corpus is a trusted professional services firm committed to fostering
                            growth and creating lasting legacies for our clients. We provide tailored
                            solutions that enable clients to meet their objectives while preserving their
@@ -314,7 +297,7 @@
                      <div class="service2-header heading2 text-center">
                         {{-- <img src="{{asset('theme/assets/img/elements/star2.png')}}" alt="" class="star2 keyframe5">
                         <img src="{{asset('theme/assets/img/elements/star2.png')}}" alt="" class="star3 keyframe5"> --}}
-                        <h2 class="text-anime-style-3">Tailored Solutions, Proven Results, <br class="d-md-block d-none"> And Exceptional Service</h2>
+                        <h2 class="text-anime-style-3 theme-text">Tailored Solutions, Proven Results, <br class="d-md-block d-none"> And Exceptional Service</h2>
                         <p data-aos="fade-up" data-aos-duration="1000">We pride ourselves on delivering a value proposition that goes beyond expectations. Our <br class="d-md-block d-none"> approach is centered on understanding your business inside</p>
                      </div>
                   </div>
@@ -391,7 +374,7 @@
                      <div class="case-header-area heading2 text-center">
                         {{-- <img src="{{asset('theme/assets/img/elements/star2.png')}}" alt="" class="star2 keyframe5">
                         <img src="{{asset('theme/assets/img/elements/star2.png')}}" alt="" class="star3 keyframe5"> --}}
-                        <h2 class="text-anime-style-3">Our Services</h2>
+                        <h2 class="text-anime-style-3 theme-text">Our Services</h2>
                         <p data-aos="fade-up" data-aos-duration="1000">We believe in the power of clear goals, strategic <br class="d-md-block d-none"> planning, and relentless execution to turn visions into reality.</p>
                      </div>
                   </div>
@@ -594,7 +577,7 @@
                 <div class="row">
                     <div class="col-lg-8 m-auto">
                         <div class="service-header text-center heading14">
-                            <h2 class="text-anime-style-3">Target Markets</h2>
+                            <h2 class="text-anime-style-3 theme-text">Target Markets</h2>
                         </div>
                     </div>
                 </div>
@@ -741,7 +724,7 @@
                     <div class="col-lg-4">
                         <div class="works4-header heading8">
                             <h5 data-aos="fade-up" data-aos-duration="800"><img src="assets/img/icons/logo-icons3.svg" alt="">Work Process</h5>
-                            <h2 class="text-anime-style-1">Growth Strategy</span></h2>
+                            <h2 class="text-anime-style-1 theme-text">Growth Strategy</span></h2>
                             <div class="space10 d-lg-block d-none"></div>
                             <p data-aos="fade-up" data-aos-duration="1000">A robust growth strategy focuses on leveraging market insights, fostering innovation, and building strategic partnerships to drive long-term success.</p>
                             <div class="space32"></div>
@@ -816,7 +799,7 @@
                      <div class="contact-header-area text-center heading2">
                         {{-- <img src="{{asset('theme/assets/img/elements/star2.png')}}" alt="" class="star2 keyframe5">
                         <img src="{{asset('theme/assets/img/elements/star2.png')}}" alt="" class="star3 keyframe5"> --}}
-                        <h2 class="text-anime-style-3">Get In Touch With Us Today</h2>
+                        <h2 class="text-anime-style-3 theme-text">Get In Touch With Us Today</h2>
                         <p>We're here to help! If you have any questions or would like to discuss <br class="d-md-block d-none">how some of our financial services can benefit your business,</p>
                      </div>
                   </div>
@@ -929,13 +912,13 @@
                     <div class="col-lg-5">
                         <div class="cta2-header heading6">
                         <h2 class="text-anime-style-3">Ready to Take Your Business To The Next Level</h2>
-                        <p data-aos="fade-up" data-aos-duretion="1200">
+                        <p data-aos="fade-up" data-aos-duration="1200">
                             We are committed to transforming aspirations into
                             achievements. We believe in the power of clear goals, strategic
                             planning, and relentless execution to turn visions into reality.
                         </p>
                         <div class="space24"></div>
-                        <div class="btn-area" data-aos="fade-up" data-aos-duretion="1400">
+                        <div class="btn-area" data-aos="fade-up" data-aos-duration="1400">
                             <a href="#contact" class="header-btn5">Get Started Now</a>
                         </div>
                         </div>
@@ -943,9 +926,9 @@
                     <div class="col-lg-2"></div>
                     <div class="col-lg-4">
                         <div class="images">
-                        <img src="{{asset('theme/assets/img/elements/elements8.png')}}" alt="" class="elements6 aniamtion-key-2">
+                        {{-- <img src="{{asset('theme/assets/img/elements/elements8.png')}}" alt="" class="elements6 aniamtion-key-2">
                         <img src="{{asset('theme/assets/img/elements/star6.png')}}" alt="" class="elements7 keyframe5">
-                        <img src="{{asset('theme/assets/img/bg/cta-bg3.png')}}" alt="" class="bg1 aniamtion-key-5">
+                        <img src="{{asset('theme/assets/img/bg/cta-bg3.png')}}" alt="" class="bg1 aniamtion-key-5"> --}}
                         <img src="{{asset('theme/assets/img/all-images/cta-img1.png')}}" alt="" class="cta-img1">
                         </div>
                     </div>
