@@ -675,7 +675,7 @@ Location:
 }
 .heading1 p {
   font-family: var(--ztc-family-font1);
-  font-size: var(--ztc-font-size-font-s16);
+  font-size: var(--ztc-font-size-font-s18);
   line-height: var(--ztc-font-size-font-s26);
   font-weight: var(--ztc-weight-regular);
   color: var(--ztc-text-text-3);
@@ -723,7 +723,7 @@ Location:
 }
 .heading2 p {
   font-family: var(--ztc-family-font1);
-  font-size: var(--ztc-font-size-font-s16);
+  font-size: var(--ztc-font-size-font-s18);
   line-height: var(--ztc-font-size-font-s26);
   font-weight: var(--ztc-weight-regular);
   color: var(--ztc-text-text-3);
@@ -926,7 +926,7 @@ Location:
 }
 .heading6 p {
   font-family: var(--ztc-family-font1);
-  font-size: var(--ztc-font-size-font-s16);
+  font-size: var(--ztc-font-size-font-s18);
   line-height: var(--ztc-font-size-font-s26);
   font-weight: var(--ztc-weight-regular);
   color: var(--ztc-text-text-3);
@@ -1062,7 +1062,7 @@ Location:
 }
 .heading8 p {
   font-family: var(--ztc-family-font1);
-  font-size: var(--ztc-font-size-font-s16);
+  font-size: var(--ztc-font-size-font-s18);
   line-height: var(--ztc-font-size-font-s26);
   font-weight: var(--ztc-weight-regular);
   color: var(--ztc-text-text-3);
@@ -1261,7 +1261,7 @@ Location:
 }
 .heading12 p {
   font-family: var(--ztc-family-font1);
-  font-size: var(--ztc-font-size-font-s16);
+  font-size: var(--ztc-font-size-font-s18);
   line-height: var(--ztc-font-size-font-s26);
   font-weight: var(--ztc-weight-regular);
   color: var(--ztc-text-text-3);
@@ -1381,7 +1381,7 @@ Location:
 }
 .heading14 p {
   font-family: var(--ztc-family-font1);
-  font-size: var(--ztc-font-size-font-s16);
+  font-size: var(--ztc-font-size-font-s18);
   line-height: var(--ztc-font-size-font-s26);
   font-weight: var(--ztc-weight-regular);
   color: var(--ztc-text-text-3);
@@ -1563,7 +1563,7 @@ Location:
 }
 .heading18 p {
   font-family: var(--ztc-family-font1);
-  font-size: var(--ztc-font-size-font-s16);
+  font-size: var(--ztc-font-size-font-s18);
   line-height: var(--ztc-font-size-font-s26);
   font-weight: var(--ztc-weight-regular);
   color: #5D6261;
@@ -4260,7 +4260,7 @@ Location:
 }
 .service1-section-area .service-all-boxes-area .service-boxarea p {
   font-family: var(--ztc-family-font1);
-  font-size: var(--ztc-font-size-font-s16);
+  font-size: var(--ztc-font-size-font-s18);
   line-height: var(--ztc-font-size-font-s24);
   font-weight: var(--ztc-weight-regular);
   color: var(--ztc-text-text-2);
@@ -4431,7 +4431,7 @@ Location:
 .service2-section-area .images-content-area .content-area p {
   color: #B2BBC6;
   font-family: var(--ztc-family-font1);
-  font-size: var(--ztc-font-size-font-s16);
+  font-size: var(--ztc-font-size-font-s18);
   line-height: var(--ztc-font-size-font-s26);
   font-weight: var(--ztc-weight-regular);
   transition: all 0.4s;
@@ -4534,7 +4534,7 @@ Location:
 }
 .service2-section-area .service-all-boxes .service2-auhtor-boxarea .content-area p {
   font-family: var(--ztc-family-font1);
-  font-size: var(--ztc-font-size-font-s16);
+  font-size: var(--ztc-font-size-font-s18);
   line-height: var(--ztc-font-size-font-s26);
   font-weight: var(--ztc-weight-regular);
   color: var(--ztc-text-text-3);
@@ -4594,7 +4594,7 @@ Location:
 }
 .service2-section-area .service-all-boxes .service2-auhtor2-boxarea .content-area p {
   font-family: var(--ztc-family-font1);
-  font-size: var(--ztc-font-size-font-s16);
+  font-size: var(--ztc-font-size-font-s18);
   line-height: var(--ztc-font-size-font-s26);
   font-weight: var(--ztc-weight-regular);
   color: var(--ztc-text-text-3);
@@ -5087,7 +5087,7 @@ Location:
 }
 .service5-section-area .service-author-boxarea .content-area p {
   font-family: var(--ztc-family-font1);
-  font-size: var(--ztc-font-size-font-s16);
+  font-size: var(--ztc-font-size-font-s18);
   line-height: var(--ztc-font-size-font-ss6);
   font-weight: var(--ztc-weight-regular);
   color: var(--ztc-text-text-3);
@@ -14633,7 +14633,7 @@ Location:
 }
 .footer13-section-area .footer-logo-area2 ul li a {
   font-family: var(--ztc-family-font1);
-  font-size: var(--ztc-font-size-font-s16);
+  font-size: var(--ztc-font-size-font-s18);
   line-height: var(--ztc-font-size-font-s26);
   font-weight: var(--ztc-weight-regular);
   color: #5C6365;
@@ -20339,6 +20339,7 @@ Location:
 .works4-section-area .case-images img {
   height: 100%;
   width: 100%;
+  max-height:300px;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 8px;
@@ -24892,7 +24893,7 @@ Location:
 }
 .contact1-section-area .contact-info-area p {
   font-family: var(--ztc-family-font1);
-  font-size: var(--ztc-font-size-font-s16);
+  font-size: var(--ztc-font-size-font-s18);
   line-height: var(--ztc-font-size-font-s26);
   font-weight: var(--ztc-weight-regular);
   color: var(--ztc-text-text-1);
@@ -30564,7 +30565,7 @@ Location:
 }
 .case1-section-area .content-area p {
   font-family: var(--ztc-family-font1);
-  font-size: var(--ztc-font-size-font-s16);
+  font-size: var(--ztc-font-size-font-s18);
   line-height: var(--ztc-font-size-font-s26);
   font-weight: var(--ztc-weight-regular);
   color: #B2BBC6;
@@ -31659,6 +31660,12 @@ Location:
 }
 .text-thick{
     font-weight: 800;;
+}
+.min-350{
+    min-height:450px !important;
+}
+.min-542{
+    min-height:545px; width:100%; height:100%; object-fit: cover
 }
 
 /*============= CASE STUDY CSS AREA ENDS ===============*//*# sourceMappingURL=main.css.map */

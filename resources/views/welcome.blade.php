@@ -259,20 +259,20 @@
       <div class="all-section-bg" style="background-image: url('{{asset('theme/assets/img/bg/pages-bg1.png')}}'); background-repeat: no-repeat; background-size: cover;">
          <!--===== ABOUT AREA STARTS =======-->
          <div class="about3-section-area sp1 bg3" id="about">
-            <img src="{{asset('theme/assets/img/bg/about-bg1.png')}}" alt="" class="about-bg1">
-            <img src="{{asset('theme/assets/img/bg/about-bg2.png')}}" alt="" class="about-bg2">
+            <img src="{{asset('theme/assets/img/elements/elements20.png')}}" alt="" class="about-bg1">
+            {{-- <img src="{{asset('theme/assets/img/elements/elements20.png')}}" alt="" class="about-bg2"> --}}
             <div class="container">
                <div class="row align-items-center">
                   <div class="col-lg-6">
                      <div class="about-images-area reveal">
-                        <img src="{{asset('uploads/img101.jpg')}}" alt="">
+                        <img class="min-350" src="{{asset('uploads/img101.jpg')}}" alt="">
                      </div>
                   </div>
                   <div class="col-lg-6">
                      <div class="about-header-area heading6">
                         <h5>Who we are </h5>
                         <h2 class="text-anime-style-3 theme-text">Company Overview</h2>
-                        <p data-aos="fade-left" data-aos-duration="1000" class="text-anime-style-3">
+                        <p data-aos="fade-left" data-aos-duration="1000">
                            Corpus is a trusted professional services firm committed to fostering
                            growth and creating lasting legacies for our clients. We provide tailored
                            solutions that enable clients to meet their objectives while preserving their
@@ -281,7 +281,7 @@
                            that cater to each client’s unique needs
                         </p>
                         <br>
-                        <div class="btn-area">
+                        <div class="btn-area" data-aos="fade-left" data-aos-duration="1000">
                             <a href="#team" class="header-btn1">Our Team<span><i class="fa-solid fa-arrow-right"></i></span></a>
                           </div>
                      </div>
@@ -308,15 +308,15 @@
                   <div class="col-lg-7">
                      <div class="images-content-area" data-aos="zoom-in" data-aos-duration="1000">
                         <div class="img1">
-                           <img style="width:100%; height:100%; object-fit: cover" src="{{asset('uploads/img111.jpg')}}" alt="">
+                           <img class="min-542" src="{{asset('uploads/img111.jpg')}}" alt="">
                         </div>
                         <div class="content-area">
-                           {{-- <h5>Our Value</h5> --}}
+                           <h5>Corpus Limited</h5>
                            <a href="#about" class="text text-anime-style-3">Guided by Values, Driven for Success</a>
                            <p data-aos="fade-up" data-aos-duration="1000">
                               At Corpus, we value integrity, innovation, and collaboration, delivering tailored solutions that empower growth, build legacies, and drive sustainable success for family businesses across East Africa.
                            </p>
-                           <br><br>
+
                            <div class="btn-area" data-aos="fade-up" data-aos-duration="1200">
                               <a href="#values" class="header-btn1">Core Values <span><i class="fa-solid fa-arrow-right"></i></span>
                               </a>
@@ -737,7 +737,7 @@
                     </div>
                     <div class="col-lg-1"></div>
                     <div class="col-lg-7">
-                        <div class="case-images">
+                        <div class="case-images" data-aos="fade-up" data-aos-duration="800">
                             <figure class="image-anime reveal">
                                 <img src="{{asset('uploads/img577.jpg')}}" alt="">
                             </figure>
