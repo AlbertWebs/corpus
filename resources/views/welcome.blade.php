@@ -256,7 +256,8 @@
          </div>
       </div>
       <!--===== TESTIMONIAL AREA ENDS =======-->
-      <div class="all-section-bg" style="background-image: url('{{asset('theme/assets/img/bg/pages-bg1.png')}}'); background-repeat: no-repeat; background-size: cover;">
+      <div class="all-section-bg">
+      {{-- <div class="all-section-bg" style="background-image: url('{{asset('theme/assets/img/bg/pages-bg1.png')}}'); background-repeat: no-repeat; background-size: cover;"> --}}
          <!--===== ABOUT AREA STARTS =======-->
          <div class="about3-section-area sp1 bg3" id="about">
             <img src="{{asset('theme/assets/img/elements/elements20.png')}}" alt="" class="about-bg1">
@@ -720,7 +721,7 @@
         <!--===== BOOST AREA ENDS =======-->
         {{--  --}}
         <!--===== STRETEGY AREA STARTS =======-->
-        <div class="works4-section-area sp2" id="strategy">
+        <div class="works4-section-area blog2-section-area sp2" id="strategy">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4">
@@ -746,10 +747,10 @@
                     <div class="space50"></div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-duration="800">
+                    {{-- <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-duration="800">
                         <div class="works-author-boxarea">
                             <div class="icons">
-                                <img src="{{asset('theme/assets/img/icons/check12.svg')}}" alt="">
+                                <img src="{{asset('theme/assets/img/icons/arrow.svg')}}" alt="">
                             </div>
                             <div class="space24"></div>
                             <div class="content-area">
@@ -758,33 +759,50 @@
                                 <a href="#service" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
 
-                    <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-duration="1000">
-                        <div class="works-author-boxarea">
-                            <div class="icons">
-                                <img src="{{asset('theme/assets/img/icons/check12.svg')}}" alt="">
-                            </div>
-                            <div class="space24"></div>
-                            <div class="content-area">
-                                <a href="#">Digital Presence</a>
-                                <p>Strengthening online presence through a user-friendly website, social media engagement, and digital marketing.</p>
-                                <a href="#service" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a>
-                            </div>
+                    <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="zoom-out" data-aos-duration="1000">
+                        <div class="blog2-author-boxarea">
+                          <div class="img1">
+                            <img class="growth-img" src="{{asset('uploads/29249842033_15cc240716_b.jpg')}}" alt="">
+                          </div>
+                          <div class="blog-content">
+                            <a href="#service" class="head">Workshops and Seminars</a>
+                            <p>
+                                Hosting events focused on financial management and business growth.
+                            </p>
+                            <a href="#service" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                          </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-duration="1200">
-                        <div class="works-author-boxarea">
-                            <div class="icons">
-                                <img src="{{asset('theme/assets/img/icons/check12.svg')}}" alt="">
-                            </div>
-                            <div class="space24"></div>
-                            <div class="content-area">
-                                <a href="#">Content Marketing</a>
-                                <p>Creating valuable content such as blogs, whitepapers, and case studies.</p>
-                                <a href="#service" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a>
-                            </div>
+                    <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="zoom-out" data-aos-duration="1000">
+                        <div class="blog2-author-boxarea">
+                          <div class="img1">
+                            <img class="growth-img" src="{{asset('uploads/Digital-presence-SMEs-UK-Capterra-Header.png')}}" alt="">
+                          </div>
+                          <div class="blog-content">
+                            <a href="#service" class="head">Digital Presence</a>
+                            <p>
+                                Strengthening online presence through a user-friendly website, social media engagement, and digital marketing.
+                            </p>
+                            <a href="#service" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="zoom-out" data-aos-duration="1000">
+                        <div class="blog2-author-boxarea">
+                          <div class="img1">
+                            <img class="growth-img" src="{{asset('uploads/7-Steps-to-Create-a-Victorious-B2B-Content-Marketing-Strategy.jpg')}}" alt="">
+                          </div>
+                          <div class="blog-content">
+                            <a href="#service" class="head">Content Marketing</a>
+                            <p>
+                                Creating valuable content such as blogs, whitepapers, and case studies.
+                            </p>
+                            <a href="#service" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                          </div>
                         </div>
                     </div>
                 </div>
