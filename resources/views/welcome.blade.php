@@ -595,7 +595,7 @@
                         <div class="space40"></div>
                         <div class="content-area">
                             <a href="#" style="min-height:40px">Established Family Businesses</a>
-                            <p>Corpus empowers established family businesses with tools to modernize operations, foster growth, and preserve generational legacies.</p>
+                            <p class="min-108">Corpus empowers established family businesses with tools to modernize operations, foster growth, and preserve generational legacies.</p>
                         </div>
                     </div>
                 </div>
@@ -610,7 +610,7 @@
                     <div class="space40"></div>
                     <div class="content-area">
                         <a href="#" style="min-height:40px">High-Net-Worth Individuals</a>
-                        <p>Corpus caters to high-net-worth individuals, offering bespoke solutions to manage wealth, enhance lifestyles, and secure legacies.</p>
+                        <p class="min-108">Corpus caters to high-net-worth individuals, offering bespoke solutions to manage wealth, enhance lifestyles, and secure legacies.</p>
                     </div>
                 </div>
             </div>
@@ -625,7 +625,7 @@
                     <div class="space40"></div>
                     <div class="content-area">
                         <a href="#" style="min-height:40px">Entrepreneurial Ventures & Start-Ups with Growth Potential</a>
-                        <p>Corpus supports entrepreneurial ventures and start-ups, providing resources to scale, innovate, and unlock their growth potential.</p>
+                        <p class="min-108">Corpus supports entrepreneurial ventures and start-ups, providing resources to scale, innovate, and unlock their growth potential.</p>
                     </div>
                 </div>
             </div>
@@ -640,7 +640,7 @@
                     <div class="space40"></div>
                     <div class="content-area">
                         <a href="#" style="min-height:40px">Corporate Executives and Senior Managers in Family Businesses</a>
-                        <p>Corpus aids corporate executives and senior managers in family businesses with strategies to streamline operations and drive success.</p>
+                        <p class="min-108">Corpus aids corporate executives and senior managers in family businesses with strategies to streamline operations and drive success.</p>
                     </div>
                 </div>
             </div>
@@ -655,7 +655,7 @@
                     <div class="space40"></div>
                     <div class="content-area">
                         <a href="#" style="min-height:40px">Families</a>
-                        <p>Corpus serves families with tailored solutions to enhance well-being, secure futures, and strengthen intergenerational bonds.</p>
+                        <p class="min-108">Corpus serves families with tailored solutions to enhance well-being, secure futures, and strengthen intergenerational bonds.</p>
                     </div>
                 </div>
             </div>
@@ -665,12 +665,12 @@
                     <h4>06</h4>
                     <div class="space40"></div>
                     <div class="img1 image-anime">
-                        <img style="min-height:245px; object-fit:cover" src="{{asset('uploads/img11221.jpg')}}" alt="">
+                        <img style="height:245px; object-fit:cover" src="{{asset('uploads/img11221.jpg')}}" alt="">
                     </div>
                     <div class="space40"></div>
                     <div class="content-area">
                         <a href="#" style="min-height:40px">Owners and Directors of SMEs</a>
-                        <p>Corpus partners with SME owners and directors, delivering strategies and tools to optimize operations, drive growth, and achieve goals.</p>
+                        <p class="min-108">Corpus partners with SME owners and directors, delivering strategies and tools to optimize operations, drive growth, and achieve goals.</p>
                     </div>
                 </div>
             </div>
@@ -931,7 +931,7 @@
                     <div class="row">
                     <div class="col-lg-5">
                         <div class="cta2-header heading6">
-                        <h2 class="text-anime-style-3">Ready to Take Your Business To The Next Level</h2>
+                        <h2 class="text-anime-style-3 theme-text">Ready to Take Your Business To The Next Level</h2>
                         <p data-aos="fade-up" data-aos-duration="1200">
                             We are committed to transforming aspirations into
                             achievements. We believe in the power of clear goals, strategic
