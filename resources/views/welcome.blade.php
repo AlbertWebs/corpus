@@ -293,7 +293,7 @@
          <!--===== ABOUT AREA ENDS =======-->
          <!--===== ABOUT AREA ENDS =======-->
          <!--===== SERVICE AREA STARTS =======-->
-         <div class="service2-section-area sp6">
+         <div class="service2-section-area sp6" id="why">
             <div class="container">
                <div class="row">
                   <div class="col-lg-12 m-auto">
@@ -450,7 +450,7 @@
                   <p data-aos="fade-up" data-aos-duration="1000">We believe in the power of clear goals, strategic <br class="d-md-block d-none"> planning, and relentless execution to turn visions into reality.</p>
                   <br>
                   <div class="btn-area1" data-aos="fade-up" data-aos-duration="1200">
-                     <a href="case.html" class="header-btn15">Why Choose Us <span><i class="fa-solid fa-arrow-right"></i></span></a>
+                     <a href="#why" class="header-btn15">Why Choose Us <span><i class="fa-solid fa-arrow-right"></i></span></a>
                   </div>
                   </div>
                </div>
