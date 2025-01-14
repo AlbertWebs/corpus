@@ -93,9 +93,9 @@
                               </ul>
                            </div>
                            <div class="btn-area">
-                              <div class="search-icon header__search header-search-btn">
+                              {{-- <div class="search-icon header__search header-search-btn">
                                  <a href="#"><img src="{{asset('theme/assets/img/icons/search-icons1.svg')}}" alt=""></a>
-                              </div>
+                              </div> --}}
                               <a href="#contact" class="header-btn1">Free Consultation <span><i class="fa-solid fa-arrow-right"></i></span></a>
                            </div>
                            <div class="header-search-form-wrapper">
@@ -370,13 +370,11 @@
          <!--===== SERVICE AREA ENDS =======-->
          @include('values')
          <!--===== CASE AREA STARTS =======-->
-         <div class="case1-section-area pb-120" id="service">
+         {{-- <div class="case1-section-area pb-120" id="service">
             <div class="container">
                <div class="row">
                   <div class="col-lg-12 m-auto">
                      <div class="case-header-area heading2 text-center">
-                        {{-- <img src="{{asset('theme/assets/img/elements/star2.png')}}" alt="" class="star2 keyframe5">
-                        <img src="{{asset('theme/assets/img/elements/star2.png')}}" alt="" class="star3 keyframe5"> --}}
                         <h2 class="text-anime-style-3 theme-text">Our Services</h2>
                         <p data-aos="fade-up" data-aos-duration="1000">We believe in the power of clear goals, strategic <br class="d-md-block d-none"> planning, and relentless execution to turn visions into reality.</p>
                      </div>
@@ -438,6 +436,110 @@
                      </div>
                   </div>
                </div>
+            </div>
+         </div> --}}
+         <!--===== CASE AREA ENDS =======-->
+         <!--===== CASE AREA STARTS =======-->
+         <div class="case8-section-area sp1 ">
+            <div class="container">
+            <div class="row align-items-center">
+               <div class="col-lg-4">
+                  <div class="case-header heading13">
+                  <h5 data-aos="fade-up" data-aos-duration="1000">What We Do</h5>
+                  <h2 class="text-anime-style-3 theme-text">Our Services</h2>
+                  <p data-aos="fade-up" data-aos-duration="1000">We believe in the power of clear goals, strategic <br class="d-md-block d-none"> planning, and relentless execution to turn visions into reality.</p>
+                  <br>
+                  <div class="btn-area1" data-aos="fade-up" data-aos-duration="1200">
+                     <a href="case.html" class="header-btn15">Why Choose Us <span><i class="fa-solid fa-arrow-right"></i></span></a>
+                  </div>
+                  </div>
+               </div>
+
+               <div class="col-lg-8">
+                  <div class="case-study-sliderarea owl-carousel">
+                  <div class="author-case-area">
+                  <div class="img1 reveal image-anime">
+                     <img class="service-image" src="{{url('/')}}/uploads/img45.jpg" alt="">
+                  </div>
+                  <div class="content-area">
+                     <div class="content">
+                        <a href="#">Family Business Succession</a>
+                        <div class="space16"></div>
+                        <p>Customized solutions for family businesses and other enterprises</p>
+                     </div>
+                     <div class="arrow">
+                        <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                     </div>
+                  </div>
+                  </div>
+                  <div class="author-case-area">
+                  <div class="img1 reveal image-anime">
+                     <img class="service-image" src="{{url('/')}}/uploads/img101-modified.jpg" alt="">
+                  </div>
+                  <div class="content-area">
+                     <div class="content">
+                        <a href="#">Wealth Management</a>
+                        <div class="space16"></div>
+                        <p>
+                            personalized wealth Management services aligned with family values and goals
+                        </p>
+                     </div>
+                     <div class="arrow">
+                        <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                     </div>
+                  </div>
+                  </div>
+                  <div class="author-case-area">
+                  <div class="img1 reveal image-anime">
+                     <img class="service-image" src="{{url('/')}}/uploads/img112-modified.jpg" alt="">
+                  </div>
+                  <div class="content-area">
+                     <div class="content">
+                        <a href="#">Governance and Leadership</a>
+                        <div class="space16"></div>
+                        <p>Establishing formal governance structures for sustained business success.</p>
+                     </div>
+                     <div class="arrow">
+                        <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                     </div>
+                  </div>
+                  </div>
+
+                  <div class="author-case-area">
+                  <div class="img1 reveal image-anime">
+                     <img class="service-image" src="{{url('/')}}/uploads/img23-modified.jpg" alt="">
+                  </div>
+                  <div class="content-area">
+                     <div class="content">
+                        <a href="#">Financial Strategy and Formulation</a>
+                        <div class="space16"></div>
+                        <p>
+                            Customized solutions for family businesses and other enterprises.
+                        </p>
+                     </div>
+                     <div class="arrow">
+                        <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                     </div>
+                  </div>
+                  </div>
+                  <div class="author-case-area">
+                  <div class="img1 reveal image-anime">
+                     <img class="service-image" src="{{url('/')}}/uploads/29249842033_15cc240716_b-modified.jpg" alt="">
+                  </div>
+                  <div class="content-area">
+                     <div class="content">
+                        <a href="#">Training and Workshops</a>
+                        <div class="space16"></div>
+                        <p>Providing ongoing education in financial management for family businesses.</p>
+                     </div>
+                     <div class="arrow">
+                        <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                     </div>
+                  </div>
+                  </div>
+                  </div>
+               </div>
+            </div>
             </div>
          </div>
          <!--===== CASE AREA ENDS =======-->

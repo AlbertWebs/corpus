@@ -494,7 +494,7 @@ img {
   --ztc-bg-bg-23: #D4FFD6;
   --ztc-bg-bg-24: #090B0E;
   --ztc-bg-bg-25: #B78956;
-  --ztc-bg-bg-26: #1B6CFC;
+  --ztc-bg-bg-26: #B78956;
   --ztc-bg-bg-27: #FCCC8A;
   --ztc-bg-bg-28: #6455E1;
   --ztc-border-border-1: #E5E7EB;
@@ -1326,7 +1326,7 @@ Location:
 }
 .heading13 p {
   font-family: var(--ztc-family-font1);
-  font-size: var(--ztc-font-size-font-s16);
+  font-size: var(--ztc-font-size-font-s18);
   line-height: var(--ztc-font-size-font-s26);
   font-weight: var(--ztc-weight-regular);
   color: var(--ztc-text-text-3);
@@ -2827,6 +2827,9 @@ Location:
   .sp5 {
     padding: 30px 0 30px;
   }
+}
+.sp66{
+    padding: 60px 0 60px;
 }
 
 .sp6 {
@@ -31328,7 +31331,7 @@ Location:
 .case8-section-area .case-study-sliderarea .author-case-area .content-area .content p {
   color: var(--ztc-text-text-1);
   font-family: var(--ztc-family-font1);
-  font-size: var(--ztc-font-size-font-s16);
+  font-size: var(--ztc-font-size-font-s18);
   font-style: normal;
   font-weight: var(--ztc-weight-regular);
   line-height: 24px;
@@ -31676,6 +31679,10 @@ h2{
 .growth-img{
     min-height:276px;
     object-fit: cover;
+}
+
+.service-image{
+    min-height:500px;
 }
 /*============= CASE STUDY CSS AREA ENDS ===============*//*# sourceMappingURL=main.css.map */
 

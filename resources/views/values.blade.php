@@ -1,5 +1,5 @@
 <!--===== SERVICE AREA STARTS =======-->
-<div class="service1-section-area sp17" id="values">
+<div class="service1-section-area sp66 bg3" id="values">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
