@@ -29,6 +29,12 @@
         <meta name="twitter:url" content="https://corpus.designekta.com/">
         <meta name="twitter:site" content="@Designekta">
 
+
+        <!-- Revolution Slider CSS Files -->
+        <link rel="stylesheet" type="text/css" href="https://slimhamdi.net/salimo/demos/js/plugins/revolution/css/settings.css" />
+        <link rel="stylesheet" type="text/css" href="https://slimhamdi.net/salimo/demos/js/plugins/revolution/css/layers.css" />
+        <link rel="stylesheet" type="text/css" href="https://slimhamdi.net/salimo/demos/js/plugins/revolution/css/navigation.css" />
+
         <!-- Favicon -->
         <link rel="icon" href="https://corpus.designekta.com/uploads/logooo.png" type="image/png">
 
@@ -49,6 +55,8 @@
       <link rel="stylesheet" href="{{asset('theme/assets/css/plugins/nice-select.css')}}">
       <link rel="stylesheet" href="{{asset('theme/assets/css/main.css')}}">
       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/revslider@5.4.201-8.6/fonts/pe-icon-7-stroke/css/helper.min.css">
 
       <!--=====  JS SCRIPT LINK =======-->
       <script src="{{asset('theme/assets/js/plugins/jquery-3-6-0.min.js')}}"></script>
@@ -73,7 +81,7 @@
       <!--===== PROGRESS ENDS=======-->
       <!--=====HEADER START=======-->
       <header>
-         <div class="header-area homepage1 header header-sticky d-none d-lg-block " id="header">
+         <div class="header-area homepage1 homepage3 header header-sticky d-none d-lg-block " id="header">
             <div class="container">
                <div class="row">
                   <div class="col-lg-12">
@@ -87,7 +95,7 @@
                                 <li class="nav-item"><a href="#about" class="nav-link active"><span>About</span></a></li>
                                 <li class="nav-item"><a href="#service" class="nav-link"><span>Services</span></a></li>
 
-                                <li class="nav-item"><a href="#careers" class="nav-link"><span>Careers</span></a></li>
+                                <li class="nav-item"><a href="{{url('/')}}/careers" class="nav-link"><span>Careers</span></a></li>
                                 <li class="nav-item"><a href="#clients" class="nav-link"><span>Clients</span></a></li>
                                 <li class="nav-item"><a href="#contact" class="nav-link"><span>Contact</span></a></li>
                               </ul>
@@ -200,35 +208,8 @@
       </div>
       <!--===== MOBILE HEADER STARTS =======-->
       <!--===== HERO AREA STARTS =======-->
-      <div class="hero1-section-area">
-         <img src="{{asset('theme/assets/img/elements/elements20.png')}}" alt="" class="elements1 aniamtion-key-1">
-         <div class="container">
-            <div class="row align-items-center">
-               <div class="col-lg-7">
-                  <div class="header-main-content heading1">
-                     <h5>#Empowering Growth, Preserving Legacies</h5>
-                     <h1 class="text-anime-style-3">Tailored Solutions to Empower Your Growth and Preserve Your Legacy</h1>
-                     <p data-aos="fade-left" data-aos-duration="2000" class="text-anime-style-3">We are committed to transforming aspirations into achievements. We believe in the power of clear goals, strategic
-                        planning, and relentless execution to turn visions into reality
-                     </p>
-                     <div class="btn-area" data-aos="fade-left" data-aos-duration="1200">
-                        <a href="#contact" class="header-btn1 text-anime-style-1">Talk To Us Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                        <a href="#contact" class="header-btn2 text-anime-style-1">Contact Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-lg-5" >
-                  <div class="header-images-area">
-                     <div class="main-images-area">
-                        <div class="img1 image-anime reveal">
-                           <img style="width:576px; object-fit:contain;" src="{{asset('uploads/undraw_data-trends_mg54.svg')}}" alt="">
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
+      {{-- @include('hero') --}}
+      @include('hero')
       <!--===== HERO AREA ENDS =======-->
       <!--===== TESTIMONIAL AREA STARTS =======-->
       <div class="slider-section-area sp5" id="client" >
@@ -541,7 +522,7 @@
                         </div>
                         <div class="space40"></div>
                         <div class="content-area">
-                            <a href="#" style="min-height:40px">Established Family Businesses</a>
+                            <a href="#" style="min-height:40px"> Family Businesses</a>
                             <p class="min-108">Corpus empowers established family businesses with tools to modernize operations, foster growth, and preserve generational legacies.</p>
                         </div>
                     </div>
@@ -639,31 +620,13 @@
                     <h5 data-aos="fade-right" data-aos-duration="800">Boost</h5>
                     <h2 data-aos="fade-right" data-aos-duration="800" class="text-anime-style-s3 theme-text">Key Differentiators</h2>
                     <p data-aos="fade-right" data-aos-duration="1000">
-                        <div class="right-area">
-                            <div class="content">
-                                <p><strong>Expertise in Family Businesses:</strong> Deep understanding of the unique challenges faced by family businesses.</p>
-                            </div>
-                        </div>
-                        <br>
-                        <div class="right-area">
-                            <div class="content">
-                                <p><strong>Personalized Approach:</strong> Offering customized financial advisory solutions that resonate with each client's specific needs</p>
-                            </div>
-                        </div>
-                        <br>
-                        <div class="right-area">
-                            <div class="content">
-                                <p><strong>International Exposure:</strong>
-                                      We offer the latest market insights and trends, connecting you to emerging markets and established industries worldwide.
-                                </p>
-                            </div>
-                        </div>
-                        <br>
-                        <div class="right-area">
-                            <div class="content">
-                                <p><strong>Investment Experience:</strong> Our seasoned team navigates complex financial and strategical landscapes, offering tailored solutions to align with your goals, maximize growth, and minimize risks.</p>
-                            </div>
-                        </div>
+                        <strong>Expertise in Family Businesses:</strong> Deep understanding of the unique challenges faced by family businesses.
+                        <br><br>
+                        <strong>Personalized Approach:</strong> Offering customized financial advisory solutions that resonate with each client's specific needs
+                        <br><br>
+                        <strong>International Exposure:</strong>We offer the latest market insights and trends, connecting you to emerging markets and established industries worldwide.
+                        <br><br>
+                        <strong>Investment Experience:</strong> Our seasoned team navigates complex financial and strategical landscapes, offering tailored solutions to align with your goals, maximize growth, and minimize risks.
                     </p>
                     <div class="space32"></div>
                     <div class="bnt-area1" data-aos="fade-right" data-aos-duration="1200">
@@ -689,7 +652,7 @@
                         {{--  --}}
                         <div class="contact-header-area text-center heading2">
                             <h2 class="text-anime-style-3 theme-text">Growth Strategy</h2>
-                            <p>A robust growth strategy focuses on leveraging market insights, fostering innovation,<br class="d-md-block d-none">and building strategic partnerships to drive long-term success.</p>
+                            <p data-aos="fade-right" data-aos-duration="1000">A robust growth strategy focuses on leveraging market insights, fostering innovation,<br class="d-md-block d-none">and building strategic partnerships to drive long-term success.</p>
                          </div>
                         {{--  --}}
                     </div>
@@ -766,7 +729,7 @@
                         {{-- <img src="{{asset('theme/assets/img/elements/star2.png')}}" alt="" class="star2 keyframe5">
                         <img src="{{asset('theme/assets/img/elements/star2.png')}}" alt="" class="star3 keyframe5"> --}}
                         <h2 class="text-anime-style-3 theme-text">Get In Touch With Us Today</h2>
-                        <p>We're here to help! If you have any questions or would like to discuss <br class="d-md-block d-none">how some of our financial services can benefit your business,</p>
+                        <p data-aos="fade-right" data-aos-duration="1000">We're here to help! If you have any questions or would like to discuss <br class="d-md-block d-none">how some of our financial services can benefit your business,</p>
                      </div>
                   </div>
                </div>
@@ -953,8 +916,8 @@
                          <p>ⓒCopyright {{date('Y')}} Corpus . All rights reserved | Powered By Designekta Studios</p>
                       </div>
                       <ul>
-                         <li><a href="#">Terms & Conditions</a></li>
-                         <li><a href="#" class="m-0"> Privacy Policy </a></li>
+                        <li><a href="{{url('/')}}/terms-and-conditions">Terms & Conditions</a></li>
+                        <li><a href="{{url('/')}}/privacy-policy" class="m-0"> Privacy Policy </a></li>
                       </ul>
                    </div>
                 </div>
@@ -983,16 +946,18 @@
       <script src="{{asset('theme/assets/js/plugins/circle-progress.js')}}"></script>
       <script src="{{asset('theme/assets/js/main.js')}}"></script>
       <script>
-        // Add active class to the current button (highlight it)
-        var header = document.getElementById("menu");
-        var btns = header.getElementsByClassName("nav-link");
-        for (var i = 0; i < btns.length; i++) {
-          btns[i].addEventListener("click", function() {
-          var current = document.getElementsByClassName("active");
-          current[0].className = current[0].className.replace(" active", "");
-          this.className += " active";
-          });
-        }
-        </script>
+            // Add active class to the current button (highlight it)
+            var header = document.getElementById("menu");
+            var btns = header.getElementsByClassName("nav-link");
+            for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function() {
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+            });
+            }
+
+       </script>
+        {{-- @include('sliderjs') --}}
    </body>
 </html>

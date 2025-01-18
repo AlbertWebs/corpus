@@ -1,4 +1,4 @@
-<div class="case8-section-area sp1 ">
+<div class="case8-section-area sp1 " id="service">
     <div class="container">
        <div class="row align-items-center">
           <div class="col-lg-4">
