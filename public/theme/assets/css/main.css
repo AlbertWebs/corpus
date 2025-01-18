@@ -474,11 +474,11 @@ img {
   --ztc-bg-bg-3: #f6f6f6;
   --ztc-bg-bg-4: #EDEAFB;
   --ztc-bg-bg-5: #F0E7DD;
-  --ztc-bg-bg-6: #CAC6FD;
+  --ztc-bg-bg-6: #ffffff;
   --ztc-bg-bg-7: #F0E7DD;
   --ztc-bg-bg-8: #D4FFD6;
   --ztc-bg-bg-9: #E2E0F2;
-  --ztc-bg-bg-10: #FB3189;
+  --ztc-bg-bg-10: #2d2926;
   --ztc-bg-bg-11: #3A3658;
   --ztc-bg-bg-12: #4E3A7A;
   --ztc-bg-bg-13: #FFEAF3;
@@ -490,7 +490,7 @@ img {
   --ztc-bg-bg-19: rgba(173, 255, 28, 0.1);
   --ztc-bg-bg-20: rgba(10, 40, 40, 0.1);
   --ztc-bg-bg-21: #F0E7DD;
-  --ztc-bg-bg-22: #CAC6FD;
+  --ztc-bg-bg-22: #ffffff;
   --ztc-bg-bg-23: #D4FFD6;
   --ztc-bg-bg-24: #090B0E;
   --ztc-bg-bg-25: #B78956;
@@ -27963,7 +27963,7 @@ Location:
   padding: 32px;
   border-radius: 8px;
   transition: all 0.4s;
-  background: #303168;
+  background: #B78956;
 }
 .testimonial2-section-area .testimonial2-owl-carousel-area .testimonial-author-box:hover {
   transition: all 0.4s;
@@ -31683,6 +31683,20 @@ h2{
 
 .service-image{
     min-height:500px;
+}
+.service-boxarea{
+    width:33%;
+}
+
+.testimonial-author-box{
+    min-height:200px;
+}
+
+@media (max-width: 767px) {
+    .service-boxarea{
+        width:99%;
+        margin:0 auto;
+    }
 }
 /*============= CASE STUDY CSS AREA ENDS ===============*//*# sourceMappingURL=main.css.map */
 

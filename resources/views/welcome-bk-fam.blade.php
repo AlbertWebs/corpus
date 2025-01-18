@@ -6,24 +6,24 @@
 
       {{--  --}}
         <!-- Meta Tags -->
-        <title>Corpus - Tailored Solutions for Growth and Legacy</title>
+        <title>Corpus Limited - Tailored Solutions for Growth and Legacy</title>
         <meta name="description" content="Corpus is a trusted professional services firm committed to fostering growth and creating lasting legacies for our clients. Explore our tailored solutions to meet your objectives and preserve your legacy.">
-        <meta name="keywords" content="Corpus, professional services, growth solutions, legacy planning, tailored solutions, business strategies, client-focused solutions">
+        <meta name="keywords" content="Corpus Limited, professional services, growth solutions, legacy planning, tailored solutions, business strategies, client-focused solutions">
         <meta name="author" content="Designekta Studios">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="robots" content="index, follow">
 
         <!-- Open Graph Tags -->
-        <meta property="og:title" content="Corpus - Tailored Solutions for Growth and Legacy">
+        <meta property="og:title" content="Corpus Limited - Tailored Solutions for Growth and Legacy">
         <meta property="og:description" content="Corpus is a trusted professional services firm committed to fostering growth and creating lasting legacies for our clients. Explore our tailored solutions to meet your objectives and preserve your legacy.">
         <meta property="og:image" content="https://corpus.designekta.com/uploads/logooo.png">
         <meta property="og:url" content="https://corpus.designekta.com/">
         <meta property="og:type" content="website">
-        <meta property="og:site_name" content="Corpus">
+        <meta property="og:site_name" content="Corpus Limited">
 
         <!-- Twitter Card Tags -->
         <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="Corpus - Tailored Solutions for Growth and Legacy">
+        <meta name="twitter:title" content="Corpus Limited - Tailored Solutions for Growth and Legacy">
         <meta name="twitter:description" content="Corpus is a trusted professional services firm committed to fostering growth and creating lasting legacies for our clients. Explore our tailored solutions to meet your objectives and preserve your legacy.">
         <meta name="twitter:image" content="https://corpus.designekta.com/uploads/logooo.png">
         <meta name="twitter:url" content="https://corpus.designekta.com/">
@@ -312,7 +312,7 @@
                            <img class="min-542" src="{{asset('uploads/img111.jpg')}}" alt="">
                         </div>
                         <div class="content-area">
-                           <h5>Corpus</h5>
+                           <h5>Corpus Limited</h5>
                            <a href="#about" class="text text-anime-style-3">Guided by Values, Driven for Success</a>
                            <p data-aos="fade-up" data-aos-duration="1000">
                               At Corpus, we value integrity, innovation, and collaboration, delivering tailored solutions that empower growth, build legacies, and drive sustainable success for family businesses across East Africa.
@@ -440,7 +440,108 @@
          </div> --}}
          <!--===== CASE AREA ENDS =======-->
          <!--===== CASE AREA STARTS =======-->
-        @include('services')
+         <div class="case8-section-area sp1 ">
+            <div class="container">
+            <div class="row align-items-center">
+               <div class="col-lg-4">
+                  <div class="case-header heading13">
+                  <h5 data-aos="fade-up" data-aos-duration="1000">What We Do</h5>
+                  <h2 class="text-anime-style-3 theme-text">Our Services</h2>
+                  <p data-aos="fade-up" data-aos-duration="1000">We believe in the power of clear goals, strategic <br class="d-md-block d-none"> planning, and relentless execution to turn visions into reality.</p>
+                  <br>
+                  <div class="btn-area1" data-aos="fade-up" data-aos-duration="1200">
+                     <a href="#why" class="header-btn15">Why Choose Us <span><i class="fa-solid fa-arrow-right"></i></span></a>
+                  </div>
+                  </div>
+               </div>
+
+               <div class="col-lg-8">
+                  <div class="case-study-sliderarea owl-carousel">
+                  <div class="author-case-area">
+                  <div class="img1 reveal image-anime">
+                     <img class="service-image" src="{{url('/')}}/uploads/img45.jpg" alt="">
+                  </div>
+                  <div class="content-area">
+                     <div class="content">
+                        <a href="#">Family Business Succession</a>
+                        <div class="space16"></div>
+                        <p>Customized solutions for family businesses and other enterprises</p>
+                     </div>
+                     <div class="arrow">
+                        <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                     </div>
+                  </div>
+                  </div>
+                  <div class="author-case-area">
+                  <div class="img1 reveal image-anime">
+                     <img class="service-image" src="{{url('/')}}/uploads/img101-modified.jpg" alt="">
+                  </div>
+                  <div class="content-area">
+                     <div class="content">
+                        <a href="#">Wealth Management</a>
+                        <div class="space16"></div>
+                        <p>
+                            personalized wealth Management services aligned with family values and goals
+                        </p>
+                     </div>
+                     <div class="arrow">
+                        <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                     </div>
+                  </div>
+                  </div>
+                  <div class="author-case-area">
+                  <div class="img1 reveal image-anime">
+                     <img class="service-image" src="{{url('/')}}/uploads/img112-modified.jpg" alt="">
+                  </div>
+                  <div class="content-area">
+                     <div class="content">
+                        <a href="#">Governance and Leadership</a>
+                        <div class="space16"></div>
+                        <p>Establishing formal governance structures for sustained business success.</p>
+                     </div>
+                     <div class="arrow">
+                        <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                     </div>
+                  </div>
+                  </div>
+
+                  <div class="author-case-area">
+                  <div class="img1 reveal image-anime">
+                     <img class="service-image" src="{{url('/')}}/uploads/img23-modified.jpg" alt="">
+                  </div>
+                  <div class="content-area">
+                     <div class="content">
+                        <a href="#">Financial Strategy and Formulation</a>
+                        <div class="space16"></div>
+                        <p>
+                            Customized solutions for family businesses and other enterprises.
+                        </p>
+                     </div>
+                     <div class="arrow">
+                        <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                     </div>
+                  </div>
+                  </div>
+                  <div class="author-case-area">
+                  <div class="img1 reveal image-anime">
+                     <img class="service-image" src="{{url('/')}}/uploads/29249842033_15cc240716_b-modified.jpg" alt="">
+                  </div>
+                  <div class="content-area">
+                     <div class="content">
+                        <a href="#">Training and Workshops</a>
+                        <div class="space16"></div>
+                        <p>Providing ongoing education in financial management for family businesses.</p>
+                     </div>
+                     <div class="arrow">
+                        <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                     </div>
+                  </div>
+                  </div>
+                  </div>
+               </div>
+            </div>
+            </div>
+         </div>
          <!--===== CASE AREA ENDS =======-->
          <!--===== OUR TEAM STARTS =======-->
          <div class="about1-section-area sp1 bg3" id="team">
@@ -465,7 +566,7 @@
                         </div>
                         <h2 class="text-anime-style-3 theme-text">About our Team.</h2>
                         <p data-aos="fade-left" data-aos-duration="1000">
-                            At Corpus, we are committed to transforming aspirations into
+                            At our company, we are committed to transforming aspirations into
                             achievements. We believe in the power of clear goals, strategic
                             planning, and relentless execution to turn visions into reality.
                         </p>
@@ -479,7 +580,7 @@
                         <figure class="image-anime reveal text-center">
 
                            <img style="min-width:416px;" src="{{asset('uploads/img18.jpg')}}" alt="">
-                           <h3 class="theme-text text-thick">Wambui Gitehi</h3>
+                           <h3 class="theme-text text-thick">Joyce Gitehi</h3>
                            <span>Director, Corpus Kenya</span>
                         </figure>
                      </div>
@@ -489,37 +590,91 @@
             <div class="space100 d-lg-block d-none"></div>
          </div>
         <!--===== OUR TEAM ENDS =======-->
-
-        <!--===== TESTIMONIAL AREA STARTS =======-->
-        <div class="testimonial2-section-area sp6" id="clients">
+         <!--===== TESTIMONIAL AREA STARTS =======-->
+         <div class="testimonial12-section-area sp6" id="testimonials">
             <div class="container">
-               <div class="row">
-                  <div class="col-lg-5 m-auto">
-                     <div class="testimonial-header heading4 text-center">
-                        <h5>Testimonials</h5>
-                        <h2 class="text-anime-style-3 theme-text">What Our Client Say</h2>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-lg-6 m-auto">
-                  <div class="testimonial2-owl-carousel-area owl-carousel">
-                     <div class="testimonial-author-box">
-                        <p class="pera">“Partnering with SEOC has been a transformative experience for our business. Their comprehensive approach to digital marketing has not only elevated our online presence but also streamlined our marketing efforts across multiple channels.”</p>
-                     </div>
-                     <div class="testimonial-author-box">
-                        <p class="pera">We've had the pleasure of working with [Your Company Name] for several years now, and they have consistently exceeded our expectations in every aspect. From the initial consultation to ongoing support, their team has demonstrated a deep understanding.”</p>
-                     </div>
-                     <div class="testimonial-author-box">
-                        <p class="pera">“Partnering with SEOC has been a transformative experience for our business. Their comprehensive approach to digital marketing has not only elevated our online presence but also streamlined our marketing efforts across multiple channels.”</p>
-                        <div class="content-area">
+              <div class="row align-items-center">
+                <div class="col-lg-6">
+                  <div class="testimonial12-boxarea-vertical">
+                    <div class="testimonial-boxarea">
+                      <img src="{{asset('theme/assets/img/icons/quito7.svg')}}" alt="">
+                      <div class="space32"></div>
+                      <p>“We take pride in the success stories of our clients. Our commitment to delivering exceptional is reflected their feedback experiences. From enhanced operational efficiency to breakthrough market strategies.”</p>
+                      <div class="space32"></div>
+                      <div class="name-ara">
+                        <div class="text">
+                          <a href="#">Sarah L.</a>
+                          <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                          </ul>
                         </div>
-                     </div>
+                      <img src="{{asset('theme/assets/img/icons/google.svg')}}" alt="">
+                      </div>
+                    </div>
+
+                    <div class="testimonial-boxarea">
+                      <img src="{{asset('theme/assets/img/icons/quito7.svg')}}" alt="">
+                      <div class="space32"></div>
+                      <p>“We take pride in the success stories of our clients. Our commitment to delivering exceptional is reflected their feedback experiences. From enhanced operational efficiency to breakthrough market strategies.”</p>
+                      <div class="space32"></div>
+                      <div class="name-ara">
+                        <div class="text">
+                          <a href="#">Sarah L.</a>
+                          <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                          </ul>
+                        </div>
+                      <img src="{{asset('theme/assets/img/icons/google.svg')}}" alt="">
+                      </div>
+                    </div>
+
+                    <div class="testimonial-boxarea">
+                      <img src="{{asset('theme/assets/img/icons/quito7.svg')}}" alt="">
+                      <div class="space32"></div>
+                      <p>“We take pride in the success stories of our clients. Our commitment to delivering exceptional is reflected their feedback experiences. From enhanced operational efficiency to breakthrough market strategies.”</p>
+                      <div class="space32"></div>
+                      <div class="name-ara">
+                        <div class="text">
+                          <a href="#">Sarah L.</a>
+                          <ul>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                            <li><i class="fa-solid fa-star"></i></li>
+                          </ul>
+                        </div>
+                      <img src="{{asset('theme/assets/img/icons/google.svg')}}" alt="">
+                      </div>
+                    </div>
                   </div>
-               </div>
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-5">
+                  <div class="testimonial-haeder heading18">
+                    <h5 data-aos="fade-left" data-aos-duration="800">Testimonial</h5>
+                    <div class="space16"></div>
+                    <h2 class="text-anime-style-3">Transformation That Speak for Themselves</h2>
+                    <div class="space20"></div>
+                    <p data-aos="fade-left" data-aos-duration="1000">Their testimonials not only showcase our dedication but also <br class="d-lg-block d-none"> illustrate the real-world benefits of partnering with.</p>
+                    <div class="space32"></div>
+                    <div class="btn-area1" data-aos="fade-left" data-aos-duration="1200">
+                      <a href="#" class="header-btn20">Get It Know <i class="fa-solid fa-angle-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-        </div>
-        <!--===== TESTIMONIAL AREA ENDS =======-->
-         {{--  --}}
+          </div>
+         <!--===== TESTIMONIAL AREA ENDS =======-->
 
          <!--===== TARGET MARKET STARTS =======-->
         <div class="service5-section-area sp1 bg3" id="target">
@@ -556,8 +711,8 @@
                     </div>
                     <div class="space40"></div>
                     <div class="content-area">
-                        <a href="#" style="min-height:40px">Individuals</a>
-                        <p class="min-108">Corpus caters to individuals, offering bespoke solutions to manage wealth, enhance lifestyles, and secure legacies.</p>
+                        <a href="#" style="min-height:40px">High-Net-Worth Individuals</a>
+                        <p class="min-108">Corpus caters to high-net-worth individuals, offering bespoke solutions to manage wealth, enhance lifestyles, and secure legacies.</p>
                     </div>
                 </div>
             </div>
@@ -637,7 +792,7 @@
                 <div class="col-lg-4">
                 <div class="boost-header heading12">
                     <h5 data-aos="fade-right" data-aos-duration="800">Boost</h5>
-                    <h2 data-aos="fade-right" data-aos-duration="800" class="text-anime-style-s3 theme-text">Key Differentiators</h2>
+                    <h2 class="text-anime-style-3 theme-text">Key Differentiators</h2>
                     <p data-aos="fade-right" data-aos-duration="1000">
                         <div class="right-area">
                             <div class="content">
@@ -650,24 +805,10 @@
                                 <p><strong>Personalized Approach:</strong> Offering customized financial advisory solutions that resonate with each client's specific needs</p>
                             </div>
                         </div>
-                        <br>
-                        <div class="right-area">
-                            <div class="content">
-                                <p><strong>International Exposure:</strong>
-                                      We offer the latest market insights and trends, connecting you to emerging markets and established industries worldwide.
-                                </p>
-                            </div>
-                        </div>
-                        <br>
-                        <div class="right-area">
-                            <div class="content">
-                                <p><strong>Investment Experience:</strong> Our seasoned team navigates complex financial and strategical landscapes, offering tailored solutions to align with your goals, maximize growth, and minimize risks.</p>
-                            </div>
-                        </div>
                     </p>
                     <div class="space32"></div>
                     <div class="bnt-area1" data-aos="fade-right" data-aos-duration="1200">
-                    <a href="#service" class="header-btn12">Find Out More <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="#service" class="header-btn12">Lets Find Out <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
                 </div>
@@ -685,18 +826,42 @@
         <div class="works4-section-area blog2-section-area sp2" id="strategy">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12">
-                        {{--  --}}
-                        <div class="contact-header-area text-center heading2">
-                            <h2 class="text-anime-style-3 theme-text">Growth Strategy</h2>
-                            <p>A robust growth strategy focuses on leveraging market insights, fostering innovation,<br class="d-md-block d-none">and building strategic partnerships to drive long-term success.</p>
-                         </div>
-                        {{--  --}}
+                    <div class="col-lg-4">
+                        <div class="works4-header heading8">
+                            <h5 data-aos="fade-up" data-aos-duration="800"><img src="assets/img/icons/logo-icons3.svg" alt="">Work Process</h5>
+                            <h2 class="text-anime-style-1 theme-text">Growth Strategy</span></h2>
+                            <div class="space10 d-lg-block d-none"></div>
+                            <p data-aos="fade-up" data-aos-duration="1000">A robust growth strategy focuses on leveraging market insights, fostering innovation, and building strategic partnerships to drive long-term success.</p>
+                            <div class="space32"></div>
+                            <div class="btn-area1" data-aos="fade-up" data-aos-duration="1200">
+                                <a href="#contact" class="header-btn12">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-7">
+                        <div class="case-images" data-aos="fade-up" data-aos-duration="800">
+                            <figure class="image-anime reveal">
+                                <img src="{{asset('uploads/img577.jpg')}}" alt="">
+                            </figure>
+                        </div>
                     </div>
                     <div class="space50"></div>
                 </div>
                 <div class="row">
-
+                    {{-- <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-duration="800">
+                        <div class="works-author-boxarea">
+                            <div class="icons">
+                                <img src="{{asset('theme/assets/img/icons/arrow.svg')}}" alt="">
+                            </div>
+                            <div class="space24"></div>
+                            <div class="content-area">
+                                <a href="#">Workshops and Seminars</a>
+                                <p> Hosting events focused on financial management and business growth.</p>
+                                <a href="#service" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div> --}}
 
                     <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="zoom-out" data-aos-duration="1000">
                         <div class="blog2-author-boxarea">
@@ -708,7 +873,7 @@
                             <p>
                                 Hosting events focused on financial management and business growth.
                             </p>
-                            {{-- <a href="#service" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a> --}}
+                            <a href="#service" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                           </div>
                         </div>
                     </div>
@@ -723,7 +888,7 @@
                             <p>
                                 Strengthening online presence through a user-friendly website, social media engagement, and digital marketing.
                             </p>
-                            {{-- <a href="#service" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a> --}}
+                            <a href="#service" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                           </div>
                         </div>
                     </div>
@@ -738,19 +903,10 @@
                             <p>
                                 Creating valuable content such as blogs, whitepapers, and case studies.
                             </p>
-                            {{-- <a href="#service" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a> --}}
+                            <a href="#service" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                           </div>
                         </div>
                     </div>
-
-                    {{--  --}}
-
-                    <center>
-                        <div class="bnt-area1" data-aos="fade-right" data-aos-duration="1200" >
-                            <a href="{{url('/')}}/join-community" class="header-btn12" style="margin:0 auto"> Join our community <i class="fa-solid fa-arrow-right"></i></a>
-                        </div>
-                    </center>
-                    {{--  --}}
                 </div>
             </div>
         </div>
@@ -841,10 +997,11 @@
                                  <div class="input-area">
                                     <select name="country" id="country" class="country-area nice-select6">
                                        <option value="1" data-display="Service Type">Service Type</option>
-                                       <option value="">Family Business </option>
-                                       <option value="">Individuals</option>
-                                       <option value="">Business</option>
-                                       <option value="">Investment Groups</option>
+                                       <option value="">Family Business Succession</option>
+                                       <option value="">Wealth Management</option>
+                                       <option value="">Governance and Leadership</option>
+                                       <option value="">Financial Strategy and Formulation</option>
+                                       <option value="">Training and Workshops</option>
                                     </select>
                                  </div>
                               </div>
