@@ -485,16 +485,34 @@
                <div class="col-lg-6 m-auto">
                   <div class="testimonial2-owl-carousel-area owl-carousel">
                      <div class="testimonial-author-box">
-                        <p class="pera">“Partnering with SEOC has been a transformative experience for our business. Their comprehensive approach to digital marketing has not only elevated our online presence but also streamlined our marketing efforts across multiple channels.”</p>
+                        <p class="pera">
+                            “Working with Corpus has been a transformative experience for our company. Their expertise in strategy formulation and HR audits helped us streamline operations and improve employee satisfaction. Thanks to their business advisory services, we’ve seen a 40% growth in profits within a year. Highly recommend their comprehensive solutions!”
+                           <br>
+                           <i>— Martha Muthoni, Director, Trusted Touch Nurses</i>
+                        </p>
                      </div>
                      <div class="testimonial-author-box">
-                        <p class="pera">We've had the pleasure of working with [Your Company Name] for several years now, and they have consistently exceeded our expectations in every aspect. From the initial consultation to ongoing support, their team has demonstrated a deep understanding.”</p>
+                        <p class="pera">
+                            "Our family business faced significant challenges with succession planning, but Corpus made the process seamless. They guided us through drafting a family business constitution and provided tailored wealth management strategies. We now have a clear path forward for future generations. Corpus truly understands the unique needs of family businesses."<br>
+                            <i>— Ahmed Khan, Managing Director, Khan & Sons</i>
+                        </p>
                      </div>
                      <div class="testimonial-author-box">
-                        <p class="pera">“Partnering with SEOC has been a transformative experience for our business. Their comprehensive approach to digital marketing has not only elevated our online presence but also streamlined our marketing efforts across multiple channels.”</p>
-                        <div class="content-area">
-                        </div>
+                        <p class="pera">“Corpus has been instrumental in helping me plan for my future. Their personal finance and investment consultation services simplified complex concepts, allowing me to confidently invest in opportunities I never thought possible. With their guidance, I’m on track for a comfortable retirement!”
+                            <br><i>
+                                — David Onyango, IT Consultant
+                            </i>
+                        </p>
                      </div>
+
+                     <div class="testimonial-author-box">
+                        <p class="pera">
+                            “Our Chama struggled with governance and investment strategies until we engaged Corpus. Their investment advisory services and workshops transformed our group into a well-organized and profitable entity. The customized Chama constitution they developed has given us clear direction and increased trust among members.”
+                            <br><i>— Grace Njeri, Chairperson, Umoja Women’s Chama</i>
+                        </p>
+                     </div>
+
+
                   </div>
                </div>
             </div>
