@@ -71,7 +71,7 @@
                    </div>
                    <div class="content-area">
                       <div class="content">
-                         <a href="#">Investment Groups(Chumas)- </a>
+                         <a href="#">Investment Groups(Chamas)- </a>
                          <div class="space16"></div>
                          <p>Providing ongoing education in financial management for family businesses.</p>
                       </div>
