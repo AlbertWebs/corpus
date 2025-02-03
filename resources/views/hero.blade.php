@@ -5,7 +5,7 @@
      </div>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <div class="hero1-section-area" style="background-image: url('{{asset('uploads/img11-modified.jpg')}}'); min-height:650px; background-position:center center">
+            <div class="hero1-section-area" style="background-image: url('{{asset('uploads/img45.jpg')}}'); height:100vh; background-position:center center">
                 {{-- <img src="{{asset('theme/assets/img/elements/elements20.png')}}" alt="" class="elements1 aniamtion-key-1"> --}}
                 <div class="container">
                 <div class="row align-items-center">
@@ -28,7 +28,7 @@
             </div>
         </div>
         <div class="carousel-item">
-            <div class="hero1-section-area" style="background-image: url('{{asset('uploads/img112-modified.jpg')}}'); min-height:650px; background-position:center center">
+            <div class="hero1-section-area" style="background-image: url('{{asset('uploads/img112-modified.jpg')}}'); height:100vh; background-position:center center">
                 {{-- <img src="{{asset('theme/assets/img/elements/elements20.png')}}" alt="" class="elements1 aniamtion-key-1"> --}}
                 <div class="container">
                 <div class="row align-items-center">

@@ -222,15 +222,15 @@
                </div>
                <div class="col-lg-10">
                   <div class="slider-images-area owl-carousel">
-                     {{-- <div class="img1">
-                        <img src="https://www.happylandschools.com/wp-content/uploads/2023/03/Happyland-Preparatory-School-Logo-1.png" alt="">
-                     </div> --}}
                      <div class="img1">
-                        <img src="https://www.trustedtouchcares.com/wp-content/uploads/2024/11/cropped-Trusted-Touch-logo-21.webp" alt="">
+                        <img src="{{url('/')}}/uploads/Peppermint_Panda.png" alt="">
                      </div>
-                     {{-- <div class="img1">
-                        <img src="{{asset('uploads/img83-removebg-preview.png')}}" alt="">
-                     </div> --}}
+                     <div class="img1">
+                        <img src="{{url('/')}}/uploads/logo-ttn.png" alt="">
+                     </div>
+                     <div class="img1">
+                        <img src="{{url('/')}}/uploads/Kiddie.png" alt="">
+                     </div>
                   </div>
                </div>
             </div>
