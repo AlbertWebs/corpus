@@ -834,7 +834,7 @@
                     <h3>Get in touch</h3>
                     <ul>
                       <li><a href="mailto"><img src="{{asset('theme/assets/img/icons/email.svg')}}" alt=""><span>info@corpusinvestmentsltd.com</span></a></li>
-                      <li><a href="#"><img src="{{asset('theme/assets/img/icons/location.svg')}}" alt=""><span>Muthangari Rd, Nairobi </span></a></li>
+                      <li><a href="#"><img src="{{asset('theme/assets/img/icons/location.svg')}}" alt=""><span>Karen Road, Equity Bank Building  </span></a></li>
                       <li><a href="tel:+254 700 146 666"><img src="{{asset('theme/assets/img/icons/phone.svg')}}" alt=""><span>+254 700 146 666</span></a></li>
                     </ul>
                   </div>
