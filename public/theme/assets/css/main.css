@@ -31742,6 +31742,9 @@ h2{
 .hero-bg{
     min-height:720px; background-size: cover;  background-repeat: no-repeat; background-position:center center;
 }
+.service-boxarea{
+    width:33%;
+}
 
 @media (max-width: 767px) {
     .hero-bg{
@@ -31749,6 +31752,10 @@ h2{
         background-size: cover;
         background-repeat: no-repeat;
         background-position:auto 100%;
+    }
+    .service-boxarea{
+        width:99%;
+        margin:0 auto;
     }
 }
 /*============= CASE STUDY CSS AREA ENDS ===============*//*# sourceMappingURL=main.css.map */
