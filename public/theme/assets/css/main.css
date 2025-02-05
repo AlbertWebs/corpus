@@ -31739,5 +31739,17 @@ h2{
 .tp-loop-wrap {
 	width:100%;
 }
+.hero-bg{
+    min-height:720px; background-size: cover;  background-repeat: no-repeat; background-position:center center;
+}
+
+@media (max-width: 767px) {
+    .hero-bg{
+        min-height:580px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:auto 100%;
+    }
+}
 /*============= CASE STUDY CSS AREA ENDS ===============*//*# sourceMappingURL=main.css.map */
 

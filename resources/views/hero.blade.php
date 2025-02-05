@@ -5,8 +5,8 @@
      </div>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <div class="hero1-section-area" style="background-image: url('{{asset('uploads/img45.jpg')}}'); height:100vh; background-position:center center">
-                {{-- <img src="{{asset('theme/assets/img/elements/elements20.png')}}" alt="" class="elements1 aniamtion-key-1"> --}}
+            <div  style="background-image: url('{{asset('uploads/img45.jpg')}}');" class="hero1-section-area hero-bg">
+                <img style="visibility:hidden" src="{{asset('theme/assets/img/elements/elements20.png')}}" alt="" class="elements1 aniamtion-key-1"><br><br>
                 <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
@@ -18,7 +18,6 @@
                             planning, and relentless execution to turn visions into reality
                             </p>
                             <div class="btn-area" data-aos="fade-left" data-aos-duration="1200">
-                            {{-- <a href="#contact" class="header-btn1 text-anime-style-1">Talk To Us Now <span><i class="fa-solid fa-arrow-right"></i></span></a> --}}
                             <a href="#contact" class="header-btn2 text-anime-style-1">Contact Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
                             </div>
                         </div>
@@ -28,8 +27,8 @@
             </div>
         </div>
         <div class="carousel-item">
-            <div class="hero1-section-area" style="background-image: url('{{asset('uploads/img112-modified.jpg')}}'); height:100vh; background-position:center center">
-                {{-- <img src="{{asset('theme/assets/img/elements/elements20.png')}}" alt="" class="elements1 aniamtion-key-1"> --}}
+            <div style="background-image: url('{{asset('uploads/img112-modified.jpg')}}');" class="hero1-section-area hero-bg">
+
                 <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
@@ -41,7 +40,7 @@
                             planning, and relentless execution to turn visions into reality
                             </p>
                             <div class="btn-area" data-aos="fade-left" data-aos-duration="1200">
-                            {{-- <a href="#contact" class="header-btn1 text-anime-style-1">Talk To Us Now <span><i class="fa-solid fa-arrow-right"></i></span></a> --}}
+
                             <a href="#contact" class="header-btn2 text-anime-style-1">Contact Now <span><i class="fa-solid fa-arrow-right"></i></span></a>
                             </div>
                         </div>
