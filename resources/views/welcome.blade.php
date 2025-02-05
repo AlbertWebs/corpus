@@ -438,12 +438,12 @@
                   </div>
                   <div class="col-lg-4">
                      <div class="about-content-area heading14">
-                        <div class="arrow-circle">
-                           {{-- <a href="#">
+                        {{-- <div class="arrow-circle">
+                           <a href="#">
                            <img src="{{asset('theme/assets/img/elements/elements4.png')}}" alt="" class="elements4 keyframe5">
                            <img src="{{asset('theme/assets/img/icons/arrow.svg')}}" alt="" class="arrow">
-                           </a> --}}
-                        </div>
+                           </a>
+                        </div> --}}
                         <h2 class="text-anime-style-3 theme-text">About our Team.</h2>
                         <p data-aos="fade-left" data-aos-duration="1000">
                             At Corpus, we are committed to transforming aspirations into
@@ -662,84 +662,10 @@
         </div>
         <!--===== BOOST AREA ENDS =======-->
         {{--  --}}
-        <!--===== STRETEGY AREA STARTS =======-->
-        <div class="works4-section-area blog2-section-area sp2" id="strategy">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        {{--  --}}
-                        <div class="contact-header-area text-center heading2">
-                            <h2 class="text-anime-style-3 theme-text">Growth Strategy</h2>
-                            <p data-aos="fade-right" data-aos-duration="1000">A robust growth strategy focuses on leveraging market insights, fostering innovation,<br class="d-md-block d-none">and building strategic partnerships to drive long-term success.</p>
-                         </div>
-                        {{--  --}}
-                    </div>
-                    <div class="space50"></div>
-                </div>
-                <div class="row">
 
-
-                    <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="zoom-out" data-aos-duration="1000">
-                        <div class="blog2-author-boxarea">
-                          <div class="img1">
-                            <img class="growth-img" src="{{asset('uploads/29249842033_15cc240716_b.jpg')}}" alt="">
-                          </div>
-                          <div class="blog-content">
-                            <a href="#service" class="head">Workshops and Seminars</a>
-                            <p>
-                                Hosting events focused on financial management and business growth.
-                            </p>
-                            {{-- <a href="#service" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a> --}}
-                          </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="zoom-out" data-aos-duration="1000">
-                        <div class="blog2-author-boxarea">
-                          <div class="img1">
-                            <img class="growth-img" src="{{asset('uploads/Digital-presence-SMEs-UK-Capterra-Header.png')}}" alt="">
-                          </div>
-                          <div class="blog-content">
-                            <a href="#service" class="head">Digital Presence</a>
-                            <p>
-                                Strengthening online presence through a user-friendly website, social media engagement, and digital marketing.
-                            </p>
-                            {{-- <a href="#service" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a> --}}
-                          </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="zoom-out" data-aos-duration="1000">
-                        <div class="blog2-author-boxarea">
-                          <div class="img1">
-                            <img class="growth-img" src="{{asset('uploads/7-Steps-to-Create-a-Victorious-B2B-Content-Marketing-Strategy.jpg')}}" alt="">
-                          </div>
-                          <div class="blog-content">
-                            <a href="#service" class="head">Content Marketing</a>
-                            <p>
-                                Creating valuable content such as blogs, whitepapers, and case studies.
-                            </p>
-                            {{-- <a href="#service" class="readmore">Learn More <i class="fa-solid fa-arrow-right"></i></a> --}}
-                          </div>
-                        </div>
-                    </div>
-
-                    {{--  --}}
-
-                    <center>
-                        <div class="bnt-area1" data-aos="fade-right" data-aos-duration="1200" >
-                            <a href="{{url('/')}}/join-community" class="header-btn12" style="margin:0 auto"> Join our community <i class="fa-solid fa-arrow-right"></i></a>
-                        </div>
-                    </center>
-                    {{--  --}}
-                </div>
-            </div>
-        </div>
-        <!--===== WORK AREA ENDS =======-->
-        {{--  --}}
 
          <!--===== CONTACT AREA STARTS =======-->
-         <div class="contact1-section-area sp6" id="contact">
+         <div class="contact1-section-area works4-section-area sp6" id="contact">
             <div class="container">
                <div class="row">
                   <div class="col-lg-12 m-auto">
@@ -776,7 +702,7 @@
                            <div class="content">
                               <h4>Phone Number</h4>
                               <a href="tel:+254 (0) 796 357 344">+254 (0) 796 357 344 <br>
-                                +254 (0) 796 357 344</a>
+                                +254 (0) 700 146 666</a>
                            </div>
                         </div>
                         <div class="space40"></div>
@@ -849,7 +775,7 @@
          <!--===== CONTACT AREA ENDS =======-->
 
          <!--===== CTA AREA STARTS =======-->
-        <div class="cta3-section-area">
+        <div class="cta3-section-area works4-section-area" style="padding-bottom:100px;">
             <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -893,10 +819,10 @@
                   <div class="footer-logo-area">
                     <img width="150" src="{{asset('uploads/logooo.png')}}" alt="">
                     <ul>
-                      <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                      <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                      <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                      <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                      {{-- <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li> --}}
+                      <li><a href="https://www.instagram.com/corpus.kenya?igsh=YWtsYXY2YnRkYThh"><i class="fa-brands fa-instagram"></i></a></li>
+                      <li><a href="https://www.linkedin.com/company/corpusltd/"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                      {{-- <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li> --}}
                     </ul>
                   </div>
                 </div>
@@ -909,7 +835,7 @@
                     <ul>
                       <li><a href="mailto"><img src="{{asset('theme/assets/img/icons/email.svg')}}" alt=""><span>info@corpusinvestmentsltd.com</span></a></li>
                       <li><a href="#"><img src="{{asset('theme/assets/img/icons/location.svg')}}" alt=""><span>Muthangari Rd, Nairobi </span></a></li>
-                      <li><a href="tel:+254 (0) 796 357 344"><img src="{{asset('theme/assets/img/icons/phone.svg')}}" alt=""><span>+254 (0) 796 357 344</span></a></li>
+                      <li><a href="tel:+254 700 146 666"><img src="{{asset('theme/assets/img/icons/phone.svg')}}" alt=""><span>+254 700 146 666</span></a></li>
                     </ul>
                   </div>
                 </div>

@@ -73,7 +73,7 @@
                       <div class="content">
                          <a href="#">Investment Groups(Chamas)- </a>
                          <div class="space16"></div>
-                         <p>Providing ongoing education in financial management for family businesses.</p>
+                         <p>Financial advisory services for groups provide expert guidance on budgeting, investments, and risk management to enhance financial stability and growth.</p>
                       </div>
                       <div class="arrow">
                          <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
