@@ -231,6 +231,10 @@
                      <div class="img1">
                         <img src="{{url('/')}}/uploads/Kiddie.png" alt="">
                      </div>
+                     <div class="img1">
+                        <img src="{{url('/')}}/uploads/matiba-removebg-preview.png" alt="">
+                     </div>
+
                   </div>
                </div>
             </div>
