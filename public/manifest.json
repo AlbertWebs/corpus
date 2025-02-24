@@ -1,0 +1,21 @@
+{
+    "name": "Corpus Investment Limited",
+    "short_name": "Corpus",
+    "description": "Corpus website",
+    "start_url": "https://corpusinvestmentsltd.com/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "icons": [
+      {
+        "src": "https://corpusinvestmentsltd.com/uploads/Corpus.png",
+        "sizes": "192x192",
+        "type": "image/webp"
+      },
+      {
+        "src": "https://corpusinvestmentsltd.com/uploads/Corpus.png",
+        "sizes": "512x512",
+        "type": "image/webp"
+      }
+    ]
+}

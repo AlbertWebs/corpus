@@ -697,7 +697,7 @@
                            </div>
                            <div class="content">
                               <h4>Our Location</h4>
-                              <a href="#">Muthangari Rd,  <br class="d-lg-block d-none">Nairobi  </a>
+                              <a href="#">Karen Road,  <br class="d-lg-block d-none">Equity Bank Building  </a>
                            </div>
                         </div>
                         <div class="space40"></div>
@@ -707,7 +707,8 @@
                            </div>
                            <div class="content">
                               <h4>Phone Number</h4>
-                              <a href="tel:+254 (0) 796 357 344">+254 (0) 796 357 344 <br>
+                              <a href="tel:+254 (0) 796 357 344">
+                                {{-- +254 (0) 796 357 344 <br> --}}
                                 +254 (0) 700 146 666</a>
                            </div>
                         </div>
