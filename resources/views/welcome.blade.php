@@ -16,8 +16,8 @@
         <!-- Open Graph Tags -->
         <meta property="og:title" content="Corpus - Tailored Solutions for Growth and Legacy">
         <meta property="og:description" content="Corpus is a trusted professional services firm committed to fostering growth and creating lasting legacies for our clients. Explore our tailored solutions to meet your objectives and preserve your legacy.">
-        <meta property="og:image" content="https://corpus.designekta.com/uploads/logooo.png">
-        <meta property="og:url" content="https://corpus.designekta.com/">
+        <meta property="og:image" content="https://corpusinvestmentsltd.com/uploads/logooo.png">
+        <meta property="og:url" content="https://corpusinvestmentsltd.com/">
         <meta property="og:type" content="website">
         <meta property="og:site_name" content="Corpus">
 
@@ -25,8 +25,8 @@
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:title" content="Corpus - Tailored Solutions for Growth and Legacy">
         <meta name="twitter:description" content="Corpus is a trusted professional services firm committed to fostering growth and creating lasting legacies for our clients. Explore our tailored solutions to meet your objectives and preserve your legacy.">
-        <meta name="twitter:image" content="https://corpus.designekta.com/uploads/logooo.png">
-        <meta name="twitter:url" content="https://corpus.designekta.com/">
+        <meta name="twitter:image" content="https://corpusinvestmentsltd.com/uploads/logooo.png">
+        <meta name="twitter:url" content="https://corpusinvestmentsltd.com/">
         <meta name="twitter:site" content="@Designekta">
 
 
@@ -36,10 +36,10 @@
         <link rel="stylesheet" type="text/css" href="https://slimhamdi.net/salimo/demos/js/plugins/revolution/css/navigation.css" />
 
         <!-- Favicon -->
-        <link rel="icon" href="https://corpus.designekta.com/uploads/logooo.png" type="image/png">
+        <link rel="icon" href="https://corpusinvestmentsltd.com/uploads/logooo.png" type="image/png">
 
         <!-- Canonical Tag -->
-        <link rel="canonical" href="https://corpus.designekta.com/">
+        <link rel="canonical" href="https://corpusinvestmentsltd.com/">
 
       {{--  --}}
       <!--=====FAB ICON=======-->
