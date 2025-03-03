@@ -6,7 +6,7 @@
 
       {{--  --}}
         <!-- Meta Tags -->
-        <title>Corpus - Tailored Solutions for Growth and Legacy</title>
+        <title>Careers - Corpus Investment Limited </title>
         <meta name="description" content="Corpus is a trusted professional services firm committed to fostering growth and creating lasting legacies for our clients. Explore our tailored solutions to meet your objectives and preserve your legacy.">
         <meta name="keywords" content="Corpus, professional services, growth solutions, legacy planning, tailored solutions, business strategies, client-focused solutions">
         <meta name="author" content="Designekta Studios">
@@ -14,7 +14,7 @@
         <meta name="robots" content="index, follow">
 
         <!-- Open Graph Tags -->
-        <meta property="og:title" content="Corpus - Tailored Solutions for Growth and Legacy">
+        <meta property="og:title" content="Careers - Corpus Investment Limited ">
         <meta property="og:description" content="Corpus is a trusted professional services firm committed to fostering growth and creating lasting legacies for our clients. Explore our tailored solutions to meet your objectives and preserve your legacy.">
         <meta property="og:image" content="https://corpusinvestmentsltd.com/uploads/logooo.png">
         <meta property="og:url" content="https://corpusinvestmentsltd.com/">
@@ -23,7 +23,7 @@
 
         <!-- Twitter Card Tags -->
         <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="Corpus - Tailored Solutions for Growth and Legacy">
+        <meta name="twitter:title" content="Careers - Corpus Investment Limited ">
         <meta name="twitter:description" content="Corpus is a trusted professional services firm committed to fostering growth and creating lasting legacies for our clients. Explore our tailored solutions to meet your objectives and preserve your legacy.">
         <meta name="twitter:image" content="https://corpusinvestmentsltd.com/uploads/logooo.png">
         <meta name="twitter:url" content="https://corpusinvestmentsltd.com/">
